@@ -23,7 +23,7 @@ public class ML {
     }
 
     public static enum Files {
-        Bank, Census, Car, Contraceptive, Mammograph, Stock, Nba, Connect4, Mushrooms, TicTac, Seismic, Wine;
+        Census, Car;
     }
 
     public static enum TestType {
