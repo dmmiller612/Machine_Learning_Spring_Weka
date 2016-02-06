@@ -1,0 +1,1231 @@
+visiting_team,home_team,month,home_wins
+Houston Rockets,Los Angeles Lakers,Oct,no
+Orlando Magic,New Orleans Pelicans,Oct,yes
+Dallas Mavericks,San Antonio Spurs,Oct,yes
+Brooklyn Nets,Boston Celtics,Oct,yes
+Milwaukee Bucks,Charlotte Hornets,Oct,yes
+Detroit Pistons,Denver Nuggets,Oct,yes
+Philadelphia 76ers,Indiana Pacers,Oct,yes
+Minnesota Timberwolves,Memphis Grizzlies,Oct,yes
+Washington Wizards,Miami Heat,Oct,yes
+Chicago Bulls,New York Knicks,Oct,no
+Los Angeles Lakers,Phoenix Suns,Oct,yes
+Oklahoma City Thunder,Portland Trail Blazers,Oct,yes
+Golden State Warriors,Sacramento Kings,Oct,no
+Atlanta Hawks,Toronto Raptors,Oct,yes
+Houston Rockets,Utah Jazz,Oct,no
+New York Knicks,Cleveland Cavaliers,Oct,no
+Utah Jazz,Dallas Mavericks,Oct,yes
+Oklahoma City Thunder,Los Angeles Clippers,Oct,yes
+Detroit Pistons,Minnesota Timberwolves,Oct,yes
+Washington Wizards,Orlando Magic,Oct,no
+Cleveland Cavaliers,Chicago Bulls,Oct,no
+Memphis Grizzlies,Indiana Pacers,Oct,no
+Los Angeles Clippers,Los Angeles Lakers,Oct,no
+Philadelphia 76ers,Milwaukee Bucks,Oct,yes
+San Antonio Spurs,Phoenix Suns,Oct,yes
+Portland Trail Blazers,Sacramento Kings,Oct,yes
+Indiana Pacers,Atlanta Hawks,Nov,yes
+Memphis Grizzlies,Charlotte Hornets,Nov,no
+Brooklyn Nets,Detroit Pistons,Nov,no
+Los Angeles Lakers,Golden State Warriors,Nov,yes
+Boston Celtics,Houston Rockets,Nov,yes
+Chicago Bulls,Minnesota Timberwolves,Nov,no
+Dallas Mavericks,New Orleans Pelicans,Nov,no
+Denver Nuggets,Oklahoma City Thunder,Nov,yes
+Toronto Raptors,Orlando Magic,Nov,no
+Miami Heat,Philadelphia 76ers,Nov,no
+Phoenix Suns,Utah Jazz,Nov,yes
+Milwaukee Bucks,Washington Wizards,Nov,yes
+Sacramento Kings,Los Angeles Clippers,Nov,no
+Toronto Raptors,Miami Heat,Nov,yes
+Charlotte Hornets,New York Knicks,Nov,yes
+Golden State Warriors,Portland Trail Blazers,Nov,no
+Oklahoma City Thunder,Brooklyn Nets,Nov,yes
+Boston Celtics,Dallas Mavericks,Nov,yes
+Sacramento Kings,Denver Nuggets,Nov,no
+Utah Jazz,Los Angeles Clippers,Nov,yes
+New Orleans Pelicans,Memphis Grizzlies,Nov,yes
+Houston Rockets,Philadelphia 76ers,Nov,no
+Orlando Magic,Chicago Bulls,Nov,yes
+Milwaukee Bucks,Indiana Pacers,Nov,no
+Phoenix Suns,Los Angeles Lakers,Nov,no
+Houston Rockets,Miami Heat,Nov,no
+Charlotte Hornets,New Orleans Pelicans,Nov,yes
+Washington Wizards,New York Knicks,Nov,no
+Cleveland Cavaliers,Portland Trail Blazers,Nov,yes
+Oklahoma City Thunder,Toronto Raptors,Nov,yes
+Toronto Raptors,Boston Celtics,Nov,no
+Minnesota Timberwolves,Brooklyn Nets,Nov,no
+Miami Heat,Charlotte Hornets,Nov,yes
+New York Knicks,Detroit Pistons,Nov,yes
+Los Angeles Clippers,Golden State Warriors,Nov,yes
+Chicago Bulls,Milwaukee Bucks,Nov,no
+Orlando Magic,Philadelphia 76ers,Nov,no
+Memphis Grizzlies,Phoenix Suns,Nov,no
+Denver Nuggets,Sacramento Kings,Nov,yes
+Atlanta Hawks,San Antonio Spurs,Nov,yes
+Cleveland Cavaliers,Utah Jazz,Nov,yes
+Indiana Pacers,Washington Wizards,Nov,yes
+San Antonio Spurs,Houston Rockets,Nov,yes
+Dallas Mavericks,Portland Trail Blazers,Nov,yes
+Indiana Pacers,Boston Celtics,Nov,yes
+New York Knicks,Brooklyn Nets,Nov,yes
+Atlanta Hawks,Charlotte Hornets,Nov,yes
+Cleveland Cavaliers,Denver Nuggets,Nov,no
+Milwaukee Bucks,Detroit Pistons,Nov,yes
+Memphis Grizzlies,Oklahoma City Thunder,Nov,no
+Minnesota Timberwolves,Orlando Magic,Nov,yes
+Chicago Bulls,Philadelphia 76ers,Nov,no
+Sacramento Kings,Phoenix Suns,Nov,no
+Washington Wizards,Toronto Raptors,Nov,yes
+Dallas Mavericks,Utah Jazz,Nov,no
+New York Knicks,Atlanta Hawks,Nov,yes
+Boston Celtics,Chicago Bulls,Nov,no
+Golden State Warriors,Houston Rockets,Nov,no
+Washington Wizards,Indiana Pacers,Nov,no
+Portland Trail Blazers,Los Angeles Clippers,Nov,yes
+Minnesota Timberwolves,Miami Heat,Nov,yes
+Memphis Grizzlies,Milwaukee Bucks,Nov,yes
+New Orleans Pelicans,San Antonio Spurs,Nov,no
+Orlando Magic,Brooklyn Nets,Nov,yes
+Miami Heat,Dallas Mavericks,Nov,no
+Utah Jazz,Detroit Pistons,Nov,no
+Charlotte Hornets,Los Angeles Lakers,Nov,yes
+Sacramento Kings,Oklahoma City Thunder,Nov,yes
+Golden State Warriors,Phoenix Suns,Nov,yes
+Denver Nuggets,Portland Trail Blazers,Nov,yes
+Philadelphia 76ers,Toronto Raptors,Nov,yes
+Detroit Pistons,Chicago Bulls,Nov,yes
+New Orleans Pelicans,Cleveland Cavaliers,Nov,yes
+Utah Jazz,Indiana Pacers,Nov,yes
+San Antonio Spurs,Los Angeles Clippers,Nov,no
+Atlanta Hawks,New York Knicks,Nov,no
+Sacramento Kings,Dallas Mavericks,Nov,yes
+San Antonio Spurs,Golden State Warriors,Nov,no
+Los Angeles Lakers,Memphis Grizzlies,Nov,yes
+Oklahoma City Thunder,Milwaukee Bucks,Nov,yes
+Charlotte Hornets,Portland Trail Blazers,Nov,yes
+Orlando Magic,Toronto Raptors,Nov,yes
+Utah Jazz,Atlanta Hawks,Nov,yes
+Oklahoma City Thunder,Boston Celtics,Nov,no
+Portland Trail Blazers,Denver Nuggets,Nov,no
+Indiana Pacers,Miami Heat,Nov,no
+Houston Rockets,Minnesota Timberwolves,Nov,no
+Los Angeles Lakers,New Orleans Pelicans,Nov,yes
+Orlando Magic,New York Knicks,Nov,no
+Brooklyn Nets,Phoenix Suns,Nov,yes
+Detroit Pistons,Washington Wizards,Nov,yes
+Philadelphia 76ers,Dallas Mavericks,Nov,yes
+Brooklyn Nets,Golden State Warriors,Nov,yes
+Sacramento Kings,Memphis Grizzlies,Nov,yes
+Chicago Bulls,Toronto Raptors,Nov,no
+Miami Heat,Atlanta Hawks,Nov,yes
+Cleveland Cavaliers,Boston Celtics,Nov,no
+Philadelphia 76ers,Houston Rockets,Nov,yes
+Denver Nuggets,Indiana Pacers,Nov,no
+San Antonio Spurs,Los Angeles Lakers,Nov,no
+Minnesota Timberwolves,New Orleans Pelicans,Nov,yes
+Utah Jazz,New York Knicks,Nov,no
+Detroit Pistons,Oklahoma City Thunder,Nov,no
+Milwaukee Bucks,Orlando Magic,Nov,yes
+Charlotte Hornets,Phoenix Suns,Nov,no
+Indiana Pacers,Chicago Bulls,Nov,no
+Atlanta Hawks,Cleveland Cavaliers,Nov,yes
+Minnesota Timberwolves,Dallas Mavericks,Nov,yes
+Charlotte Hornets,Golden State Warriors,Nov,yes
+Phoenix Suns,Los Angeles Clippers,Nov,yes
+Detroit Pistons,Memphis Grizzlies,Nov,yes
+Brooklyn Nets,Portland Trail Blazers,Nov,yes
+San Antonio Spurs,Sacramento Kings,Nov,yes
+Utah Jazz,Toronto Raptors,Nov,yes
+Orlando Magic,Washington Wizards,Nov,yes
+Golden State Warriors,Los Angeles Lakers,Nov,no
+Milwaukee Bucks,Miami Heat,Nov,no
+Denver Nuggets,New York Knicks,Nov,yes
+Houston Rockets,Oklahoma City Thunder,Nov,no
+Phoenix Suns,Boston Celtics,Nov,no
+Miami Heat,Brooklyn Nets,Nov,no
+Dallas Mavericks,Charlotte Hornets,Nov,no
+Denver Nuggets,Cleveland Cavaliers,Nov,no
+Orlando Magic,Detroit Pistons,Nov,no
+Chicago Bulls,Los Angeles Clippers,Nov,no
+Houston Rockets,Memphis Grizzlies,Nov,yes
+New Orleans Pelicans,Portland Trail Blazers,Nov,yes
+Philadelphia 76ers,San Antonio Spurs,Nov,yes
+Los Angeles Lakers,Atlanta Hawks,Nov,no
+New York Knicks,Milwaukee Bucks,Nov,yes
+New Orleans Pelicans,Sacramento Kings,Nov,no
+Oklahoma City Thunder,Utah Jazz,Nov,yes
+Milwaukee Bucks,Brooklyn Nets,Nov,no
+San Antonio Spurs,Cleveland Cavaliers,Nov,no
+Oklahoma City Thunder,Denver Nuggets,Nov,yes
+Phoenix Suns,Detroit Pistons,Nov,no
+Los Angeles Lakers,Houston Rockets,Nov,no
+Charlotte Hornets,Indiana Pacers,Nov,yes
+New York Knicks,Minnesota Timberwolves,Nov,yes
+Los Angeles Clippers,Orlando Magic,Nov,no
+Boston Celtics,Philadelphia 76ers,Nov,no
+Memphis Grizzlies,Toronto Raptors,Nov,yes
+Dallas Mavericks,Washington Wizards,Nov,no
+Los Angeles Clippers,Miami Heat,Nov,no
+Chicago Bulls,Sacramento Kings,Nov,yes
+Detroit Pistons,Atlanta Hawks,Nov,yes
+Orlando Magic,Charlotte Hornets,Nov,no
+Los Angeles Lakers,Dallas Mavericks,Nov,yes
+New Orleans Pelicans,Denver Nuggets,Nov,yes
+Utah Jazz,Golden State Warriors,Nov,yes
+Boston Celtics,Memphis Grizzlies,Nov,yes
+San Antonio Spurs,Minnesota Timberwolves,Nov,no
+Brooklyn Nets,Oklahoma City Thunder,Nov,no
+Phoenix Suns,Philadelphia 76ers,Nov,no
+Chicago Bulls,Portland Trail Blazers,Nov,yes
+Milwaukee Bucks,Toronto Raptors,Nov,yes
+Cleveland Cavaliers,Washington Wizards,Nov,yes
+Toronto Raptors,Cleveland Cavaliers,Nov,no
+Dallas Mavericks,Houston Rockets,Nov,yes
+Phoenix Suns,Indiana Pacers,Nov,no
+Washington Wizards,Milwaukee Bucks,Nov,no
+Sacramento Kings,Minnesota Timberwolves,Nov,no
+Philadelphia 76ers,New York Knicks,Nov,yes
+Miami Heat,Orlando Magic,Nov,no
+Brooklyn Nets,San Antonio Spurs,Nov,yes
+New Orleans Pelicans,Utah Jazz,Nov,no
+Portland Trail Blazers,Boston Celtics,Nov,no
+Denver Nuggets,Los Angeles Lakers,Nov,no
+Los Angeles Clippers,Memphis Grizzlies,Nov,yes
+Charlotte Hornets,Miami Heat,Nov,yes
+Golden State Warriors,Oklahoma City Thunder,Nov,no
+Los Angeles Clippers,Charlotte Hornets,Nov,no
+Orlando Magic,Cleveland Cavaliers,Nov,yes
+Indiana Pacers,Dallas Mavericks,Nov,no
+New York Knicks,Houston Rockets,Nov,yes
+Portland Trail Blazers,Philadelphia 76ers,Nov,no
+Phoenix Suns,Toronto Raptors,Nov,yes
+Chicago Bulls,Utah Jazz,Nov,no
+Chicago Bulls,Denver Nuggets,Nov,yes
+Golden State Warriors,Miami Heat,Nov,no
+Detroit Pistons,Milwaukee Bucks,Nov,yes
+Sacramento Kings,New Orleans Pelicans,Nov,no
+Atlanta Hawks,Washington Wizards,Nov,no
+Toronto Raptors,Atlanta Hawks,Nov,no
+Portland Trail Blazers,Charlotte Hornets,Nov,no
+Washington Wizards,Cleveland Cavaliers,Nov,yes
+New York Knicks,Dallas Mavericks,Nov,yes
+Los Angeles Clippers,Detroit Pistons,Nov,no
+Sacramento Kings,Houston Rockets,Nov,yes
+Memphis Grizzlies,Los Angeles Lakers,Nov,no
+Milwaukee Bucks,Minnesota Timberwolves,Nov,no
+Utah Jazz,Oklahoma City Thunder,Nov,yes
+Golden State Warriors,Orlando Magic,Nov,no
+Brooklyn Nets,Philadelphia 76ers,Nov,no
+Denver Nuggets,Phoenix Suns,Nov,yes
+Indiana Pacers,San Antonio Spurs,Nov,yes
+New Orleans Pelicans,Atlanta Hawks,Nov,yes
+Chicago Bulls,Boston Celtics,Nov,no
+Golden State Warriors,Charlotte Hornets,Nov,no
+Phoenix Suns,Denver Nuggets,Nov,yes
+Milwaukee Bucks,Detroit Pistons,Nov,no
+Los Angeles Clippers,Houston Rockets,Nov,no
+Orlando Magic,Indiana Pacers,Nov,yes
+Minnesota Timberwolves,Los Angeles Lakers,Nov,no
+New York Knicks,Oklahoma City Thunder,Nov,yes
+Memphis Grizzlies,Portland Trail Blazers,Nov,no
+Sacramento Kings,San Antonio Spurs,Nov,yes
+Dallas Mavericks,Toronto Raptors,Nov,no
+Charlotte Hornets,Atlanta Hawks,Nov,yes
+Indiana Pacers,Cleveland Cavaliers,Nov,yes
+Houston Rockets,Milwaukee Bucks,Nov,no
+Dallas Mavericks,Philadelphia 76ers,Nov,no
+Los Angeles Clippers,Utah Jazz,Nov,no
+New Orleans Pelicans,Washington Wizards,Nov,yes
+San Antonio Spurs,Boston Celtics,Nov,no
+Chicago Bulls,Brooklyn Nets,Nov,no
+Golden State Warriors,Detroit Pistons,Nov,no
+Toronto Raptors,Los Angeles Lakers,Nov,yes
+Miami Heat,New York Knicks,Nov,no
+Orlando Magic,Phoenix Suns,Nov,no
+Minnesota Timberwolves,Portland Trail Blazers,Nov,yes
+Memphis Grizzlies,Sacramento Kings,Nov,no
+Minnesota Timberwolves,Los Angeles Clippers,Dec,yes
+San Antonio Spurs,Philadelphia 76ers,Dec,no
+Denver Nuggets,Utah Jazz,Dec,no
+Miami Heat,Washington Wizards,Dec,yes
+Boston Celtics,Atlanta Hawks,Dec,yes
+Dallas Mavericks,Chicago Bulls,Dec,no
+Milwaukee Bucks,Cleveland Cavaliers,Dec,yes
+Portland Trail Blazers,Denver Nuggets,Dec,no
+Los Angeles Lakers,Detroit Pistons,Dec,no
+Orlando Magic,Golden State Warriors,Dec,yes
+Oklahoma City Thunder,New Orleans Pelicans,Dec,yes
+Brooklyn Nets,New York Knicks,Dec,no
+Indiana Pacers,Phoenix Suns,Dec,yes
+Toronto Raptors,Sacramento Kings,Dec,no
+Detroit Pistons,Boston Celtics,Dec,yes
+San Antonio Spurs,Brooklyn Nets,Dec,yes
+Chicago Bulls,Charlotte Hornets,Dec,no
+Memphis Grizzlies,Houston Rockets,Dec,yes
+Orlando Magic,Los Angeles Clippers,Dec,yes
+Atlanta Hawks,Miami Heat,Dec,no
+Dallas Mavericks,Milwaukee Bucks,Dec,no
+Philadelphia 76ers,Minnesota Timberwolves,Dec,no
+Toronto Raptors,Utah Jazz,Dec,no
+Los Angeles Lakers,Washington Wizards,Dec,yes
+New Orleans Pelicans,Golden State Warriors,Dec,yes
+Cleveland Cavaliers,New York Knicks,Dec,no
+Indiana Pacers,Portland Trail Blazers,Dec,yes
+Los Angeles Lakers,Boston Celtics,Dec,yes
+Atlanta Hawks,Brooklyn Nets,Dec,no
+New York Knicks,Charlotte Hornets,Dec,yes
+Phoenix Suns,Dallas Mavericks,Dec,no
+San Antonio Spurs,Memphis Grizzlies,Dec,no
+Miami Heat,Milwaukee Bucks,Dec,yes
+Houston Rockets,Minnesota Timberwolves,Dec,no
+Oklahoma City Thunder,Philadelphia 76ers,Dec,no
+Indiana Pacers,Sacramento Kings,Dec,yes
+Cleveland Cavaliers,Toronto Raptors,Dec,no
+Orlando Magic,Utah Jazz,Dec,no
+Denver Nuggets,Washington Wizards,Dec,yes
+Golden State Warriors,Chicago Bulls,Dec,no
+Philadelphia 76ers,Detroit Pistons,Dec,no
+Phoenix Suns,Houston Rockets,Dec,yes
+New Orleans Pelicans,Los Angeles Clippers,Dec,yes
+Orlando Magic,Sacramento Kings,Dec,no
+Minnesota Timberwolves,San Antonio Spurs,Dec,yes
+Denver Nuggets,Atlanta Hawks,Dec,yes
+Washington Wizards,Boston Celtics,Dec,yes
+Milwaukee Bucks,Dallas Mavericks,Dec,yes
+Oklahoma City Thunder,Detroit Pistons,Dec,no
+New Orleans Pelicans,Los Angeles Lakers,Dec,no
+Miami Heat,Memphis Grizzlies,Dec,yes
+Portland Trail Blazers,New York Knicks,Dec,no
+Cleveland Cavaliers,Brooklyn Nets,Dec,no
+Atlanta Hawks,Indiana Pacers,Dec,no
+Phoenix Suns,Los Angeles Clippers,Dec,yes
+Golden State Warriors,Minnesota Timberwolves,Dec,no
+Utah Jazz,Sacramento Kings,Dec,yes
+Denver Nuggets,Toronto Raptors,Dec,yes
+Boston Celtics,Washington Wizards,Dec,yes
+Toronto Raptors,Cleveland Cavaliers,Dec,yes
+Portland Trail Blazers,Detroit Pistons,Dec,no
+Sacramento Kings,Los Angeles Lakers,Dec,yes
+Dallas Mavericks,Memphis Grizzlies,Dec,yes
+New York Knicks,New Orleans Pelicans,Dec,yes
+Milwaukee Bucks,Oklahoma City Thunder,Dec,yes
+Miami Heat,Phoenix Suns,Dec,no
+San Antonio Spurs,Utah Jazz,Dec,yes
+Philadelphia 76ers,Atlanta Hawks,Dec,yes
+Brooklyn Nets,Chicago Bulls,Dec,yes
+Boston Celtics,Charlotte Hornets,Dec,yes
+New Orleans Pelicans,Dallas Mavericks,Dec,yes
+Miami Heat,Denver Nuggets,Dec,yes
+Houston Rockets,Golden State Warriors,Dec,yes
+Los Angeles Clippers,Indiana Pacers,Dec,no
+Portland Trail Blazers,Minnesota Timberwolves,Dec,yes
+Washington Wizards,Orlando Magic,Dec,no
+New York Knicks,San Antonio Spurs,Dec,yes
+Cleveland Cavaliers,Oklahoma City Thunder,Dec,yes
+Houston Rockets,Sacramento Kings,Dec,no
+Orlando Magic,Atlanta Hawks,Dec,yes
+New York Knicks,Boston Celtics,Dec,no
+Philadelphia 76ers,Brooklyn Nets,Dec,yes
+Portland Trail Blazers,Chicago Bulls,Dec,yes
+Charlotte Hornets,Memphis Grizzlies,Dec,yes
+Oklahoma City Thunder,Minnesota Timberwolves,Dec,no
+Cleveland Cavaliers,New Orleans Pelicans,Dec,yes
+Detroit Pistons,Phoenix Suns,Dec,no
+Los Angeles Lakers,San Antonio Spurs,Dec,no
+Indiana Pacers,Toronto Raptors,Dec,yes
+Miami Heat,Utah Jazz,Dec,no
+Los Angeles Clippers,Washington Wizards,Dec,yes
+Brooklyn Nets,Charlotte Hornets,Dec,no
+Golden State Warriors,Dallas Mavericks,Dec,no
+Denver Nuggets,Houston Rockets,Dec,yes
+Portland Trail Blazers,Indiana Pacers,Dec,no
+Los Angeles Clippers,Milwaukee Bucks,Dec,yes
+Atlanta Hawks,Orlando Magic,Dec,yes
+Memphis Grizzlies,Philadelphia 76ers,Dec,no
+Detroit Pistons,Sacramento Kings,Dec,no
+San Antonio Spurs,Denver Nuggets,Dec,no
+Chicago Bulls,Miami Heat,Dec,no
+Los Angeles Lakers,Minnesota Timberwolves,Dec,no
+Golden State Warriors,New Orleans Pelicans,Dec,no
+Toronto Raptors,New York Knicks,Dec,no
+Phoenix Suns,Oklahoma City Thunder,Dec,yes
+Utah Jazz,Washington Wizards,Dec,yes
+Chicago Bulls,Atlanta Hawks,Dec,yes
+Charlotte Hornets,Cleveland Cavaliers,Dec,yes
+Los Angeles Lakers,Indiana Pacers,Dec,yes
+Detroit Pistons,Los Angeles Clippers,Dec,yes
+Boston Celtics,Philadelphia 76ers,Dec,no
+Milwaukee Bucks,Phoenix Suns,Dec,no
+San Antonio Spurs,Portland Trail Blazers,Dec,yes
+Orlando Magic,Toronto Raptors,Dec,yes
+Miami Heat,Brooklyn Nets,Dec,no
+Golden State Warriors,Memphis Grizzlies,Dec,yes
+Utah Jazz,New Orleans Pelicans,Dec,yes
+Dallas Mavericks,New York Knicks,Dec,no
+Oklahoma City Thunder,Sacramento Kings,Dec,no
+Minnesota Timberwolves,Washington Wizards,Dec,yes
+Orlando Magic,Boston Celtics,Dec,yes
+Phoenix Suns,Charlotte Hornets,Dec,no
+Atlanta Hawks,Cleveland Cavaliers,Dec,no
+Houston Rockets,Denver Nuggets,Dec,no
+Dallas Mavericks,Detroit Pistons,Dec,no
+Indiana Pacers,Los Angeles Clippers,Dec,yes
+Utah Jazz,Miami Heat,Dec,no
+Milwaukee Bucks,Portland Trail Blazers,Dec,yes
+Memphis Grizzlies,San Antonio Spurs,Dec,no
+Brooklyn Nets,Toronto Raptors,Dec,yes
+New York Knicks,Chicago Bulls,Dec,yes
+Oklahoma City Thunder,Golden State Warriors,Dec,yes
+New Orleans Pelicans,Houston Rockets,Dec,no
+Milwaukee Bucks,Sacramento Kings,Dec,no
+Minnesota Timberwolves,Boston Celtics,Dec,yes
+Brooklyn Nets,Cleveland Cavaliers,Dec,yes
+Los Angeles Clippers,Denver Nuggets,Dec,yes
+Toronto Raptors,Detroit Pistons,Dec,no
+Oklahoma City Thunder,Los Angeles Lakers,Dec,no
+Chicago Bulls,Memphis Grizzlies,Dec,no
+Washington Wizards,Miami Heat,Dec,no
+Utah Jazz,Orlando Magic,Dec,no
+Charlotte Hornets,Philadelphia 76ers,Dec,no
+Portland Trail Blazers,San Antonio Spurs,Dec,no
+Utah Jazz,Charlotte Hornets,Dec,yes
+San Antonio Spurs,Dallas Mavericks,Dec,yes
+Indiana Pacers,Denver Nuggets,Dec,yes
+Atlanta Hawks,Houston Rockets,Dec,no
+Milwaukee Bucks,Los Angeles Clippers,Dec,yes
+Portland Trail Blazers,New Orleans Pelicans,Dec,no
+Phoenix Suns,New York Knicks,Dec,no
+Detroit Pistons,Brooklyn Nets,Dec,yes
+Memphis Grizzlies,Cleveland Cavaliers,Dec,yes
+Boston Celtics,Miami Heat,Dec,yes
+Indiana Pacers,Minnesota Timberwolves,Dec,no
+New Orleans Pelicans,Oklahoma City Thunder,Dec,no
+Philadelphia 76ers,Orlando Magic,Dec,no
+Los Angeles Lakers,Sacramento Kings,Dec,yes
+New York Knicks,Toronto Raptors,Dec,yes
+Phoenix Suns,Washington Wizards,Dec,no
+Toronto Raptors,Chicago Bulls,Dec,yes
+Denver Nuggets,Charlotte Hornets,Dec,yes
+Atlanta Hawks,Dallas Mavericks,Dec,no
+Sacramento Kings,Golden State Warriors,Dec,yes
+Portland Trail Blazers,Houston Rockets,Dec,yes
+Utah Jazz,Memphis Grizzlies,Dec,no
+Los Angeles Clippers,San Antonio Spurs,Dec,yes
+Los Angeles Clippers,Atlanta Hawks,Dec,yes
+Denver Nuggets,Brooklyn Nets,Dec,yes
+Minnesota Timberwolves,Cleveland Cavaliers,Dec,yes
+New Orleans Pelicans,Indiana Pacers,Dec,yes
+Golden State Warriors,Los Angeles Lakers,Dec,yes
+Philadelphia 76ers,Miami Heat,Dec,no
+Charlotte Hornets,Milwaukee Bucks,Dec,no
+Portland Trail Blazers,Oklahoma City Thunder,Dec,no
+Boston Celtics,Orlando Magic,Dec,yes
+Dallas Mavericks,Phoenix Suns,Dec,yes
+Chicago Bulls,Washington Wizards,Dec,no
+Los Angeles Lakers,Chicago Bulls,Dec,yes
+Golden State Warriors,Los Angeles Clippers,Dec,yes
+Cleveland Cavaliers,Miami Heat,Dec,yes
+Washington Wizards,New York Knicks,Dec,no
+Oklahoma City Thunder,San Antonio Spurs,Dec,no
+Milwaukee Bucks,Atlanta Hawks,Dec,no
+Brooklyn Nets,Boston Celtics,Dec,no
+Los Angeles Lakers,Dallas Mavericks,Dec,yes
+Minnesota Timberwolves,Denver Nuggets,Dec,yes
+Indiana Pacers,Detroit Pistons,Dec,yes
+Houston Rockets,Memphis Grizzlies,Dec,no
+San Antonio Spurs,New Orleans Pelicans,Dec,yes
+Charlotte Hornets,Oklahoma City Thunder,Dec,yes
+Cleveland Cavaliers,Orlando Magic,Dec,no
+Philadelphia 76ers,Portland Trail Blazers,Dec,yes
+Phoenix Suns,Sacramento Kings,Dec,no
+Indiana Pacers,Brooklyn Nets,Dec,no
+New Orleans Pelicans,Chicago Bulls,Dec,yes
+Orlando Magic,Charlotte Hornets,Dec,no
+Minnesota Timberwolves,Golden State Warriors,Dec,yes
+Toronto Raptors,Los Angeles Clippers,Dec,no
+Memphis Grizzlies,Miami Heat,Dec,no
+Atlanta Hawks,Milwaukee Bucks,Dec,no
+New York Knicks,Sacramento Kings,Dec,yes
+Philadelphia 76ers,Utah Jazz,Dec,yes
+Boston Celtics,Washington Wizards,Dec,yes
+Detroit Pistons,Cleveland Cavaliers,Dec,no
+Oklahoma City Thunder,Dallas Mavericks,Dec,yes
+Toronto Raptors,Denver Nuggets,Dec,no
+Phoenix Suns,Los Angeles Lakers,Dec,no
+New York Knicks,Portland Trail Blazers,Dec,yes
+Houston Rockets,San Antonio Spurs,Dec,yes
+Sacramento Kings,Brooklyn Nets,Dec,yes
+Milwaukee Bucks,Charlotte Hornets,Dec,no
+Washington Wizards,Houston Rockets,Dec,no
+Chicago Bulls,Indiana Pacers,Dec,no
+Utah Jazz,Los Angeles Clippers,Dec,yes
+Orlando Magic,Miami Heat,Dec,no
+Cleveland Cavaliers,Atlanta Hawks,Dec,yes
+Brooklyn Nets,Chicago Bulls,Dec,no
+Washington Wizards,Dallas Mavericks,Dec,yes
+Los Angeles Lakers,Denver Nuggets,Dec,no
+Philadelphia 76ers,Golden State Warriors,Dec,yes
+San Antonio Spurs,Memphis Grizzlies,Dec,yes
+Phoenix Suns,New Orleans Pelicans,Dec,yes
+Detroit Pistons,Orlando Magic,Dec,no
+Toronto Raptors,Portland Trail Blazers,Dec,yes
+Minnesota Timberwolves,Utah Jazz,Dec,yes
+Sacramento Kings,Boston Celtics,Dec,yes
+Milwaukee Bucks,Cleveland Cavaliers,Dec,no
+Charlotte Hornets,Houston Rockets,Dec,yes
+Miami Heat,Indiana Pacers,Dec,yes
+New York Knicks,Los Angeles Clippers,Dec,yes
+Phoenix Suns,Oklahoma City Thunder,Dec,yes
+New Orleans Pelicans,San Antonio Spurs,Dec,yes
+Denver Nuggets,Chicago Bulls,Jan,yes
+Sacramento Kings,Minnesota Timberwolves,Jan,no
+Dallas Mavericks,Boston Celtics,Jan,no
+Cleveland Cavaliers,Charlotte Hornets,Jan,no
+Toronto Raptors,Golden State Warriors,Jan,yes
+Memphis Grizzlies,Los Angeles Lakers,Jan,no
+Indiana Pacers,Milwaukee Bucks,Jan,no
+Houston Rockets,New Orleans Pelicans,Jan,yes
+Detroit Pistons,New York Knicks,Jan,no
+Washington Wizards,Oklahoma City Thunder,Jan,yes
+Brooklyn Nets,Orlando Magic,Jan,no
+Philadelphia 76ers,Phoenix Suns,Jan,yes
+Atlanta Hawks,Utah Jazz,Jan,no
+Boston Celtics,Chicago Bulls,Jan,yes
+Memphis Grizzlies,Denver Nuggets,Jan,yes
+Miami Heat,Houston Rockets,Jan,yes
+Philadelphia 76ers,Los Angeles Clippers,Jan,yes
+Utah Jazz,Minnesota Timberwolves,Jan,no
+Charlotte Hornets,Orlando Magic,Jan,no
+Atlanta Hawks,Portland Trail Blazers,Jan,no
+Washington Wizards,San Antonio Spurs,Jan,yes
+Dallas Mavericks,Cleveland Cavaliers,Jan,no
+Sacramento Kings,Detroit Pistons,Jan,yes
+Indiana Pacers,Los Angeles Lakers,Jan,yes
+Brooklyn Nets,Miami Heat,Jan,yes
+Milwaukee Bucks,New York Knicks,Jan,no
+Toronto Raptors,Phoenix Suns,Jan,yes
+Charlotte Hornets,Boston Celtics,Jan,no
+Dallas Mavericks,Brooklyn Nets,Jan,no
+Houston Rockets,Chicago Bulls,Jan,yes
+Oklahoma City Thunder,Golden State Warriors,Jan,yes
+Atlanta Hawks,Los Angeles Clippers,Jan,no
+New York Knicks,Memphis Grizzlies,Jan,yes
+Denver Nuggets,Minnesota Timberwolves,Jan,no
+Washington Wizards,New Orleans Pelicans,Jan,no
+Cleveland Cavaliers,Philadelphia 76ers,Jan,yes
+Los Angeles Lakers,Portland Trail Blazers,Jan,yes
+Indiana Pacers,Utah Jazz,Jan,no
+Phoenix Suns,Milwaukee Bucks,Jan,no
+Detroit Pistons,San Antonio Spurs,Jan,no
+Memphis Grizzlies,Atlanta Hawks,Jan,yes
+Boston Celtics,Brooklyn Nets,Jan,no
+Utah Jazz,Chicago Bulls,Jan,no
+New Orleans Pelicans,Charlotte Hornets,Jan,yes
+Houston Rockets,Cleveland Cavaliers,Jan,no
+Detroit Pistons,Dallas Mavericks,Jan,no
+Orlando Magic,Denver Nuggets,Jan,yes
+Indiana Pacers,Golden State Warriors,Jan,yes
+Los Angeles Lakers,Los Angeles Clippers,Jan,yes
+Phoenix Suns,Minnesota Timberwolves,Jan,no
+Milwaukee Bucks,Philadelphia 76ers,Jan,no
+Oklahoma City Thunder,Sacramento Kings,Jan,yes
+New York Knicks,Washington Wizards,Jan,yes
+Houston Rockets,New York Knicks,Jan,no
+Miami Heat,Portland Trail Blazers,Jan,yes
+Charlotte Hornets,Toronto Raptors,Jan,no
+Philadelphia 76ers,Brooklyn Nets,Jan,no
+Atlanta Hawks,Detroit Pistons,Jan,no
+Cleveland Cavaliers,Golden State Warriors,Jan,yes
+Boston Celtics,Indiana Pacers,Jan,yes
+Orlando Magic,Los Angeles Lakers,Jan,yes
+Minnesota Timberwolves,Milwaukee Bucks,Jan,yes
+Memphis Grizzlies,New Orleans Pelicans,Jan,yes
+Utah Jazz,Oklahoma City Thunder,Jan,yes
+Denver Nuggets,Sacramento Kings,Jan,no
+Phoenix Suns,San Antonio Spurs,Jan,yes
+Chicago Bulls,Washington Wizards,Jan,yes
+Milwaukee Bucks,Chicago Bulls,Jan,yes
+Brooklyn Nets,Detroit Pistons,Jan,yes
+Utah Jazz,Houston Rockets,Jan,yes
+Dallas Mavericks,Los Angeles Clippers,Jan,yes
+San Antonio Spurs,Minnesota Timberwolves,Jan,no
+Charlotte Hornets,New York Knicks,Jan,no
+Indiana Pacers,Philadelphia 76ers,Jan,yes
+Orlando Magic,Portland Trail Blazers,Jan,yes
+Boston Celtics,Toronto Raptors,Jan,yes
+Washington Wizards,Atlanta Hawks,Jan,yes
+Miami Heat,Los Angeles Clippers,Jan,no
+Portland Trail Blazers,Los Angeles Lakers,Jan,no
+Phoenix Suns,Memphis Grizzlies,Jan,yes
+Cleveland Cavaliers,Sacramento Kings,Jan,yes
+New Orleans Pelicans,Boston Celtics,Jan,yes
+Houston Rockets,Brooklyn Nets,Jan,no
+Orlando Magic,Chicago Bulls,Jan,no
+Detroit Pistons,Toronto Raptors,Jan,no
+Minnesota Timberwolves,Indiana Pacers,Jan,no
+Miami Heat,Los Angeles Lakers,Jan,no
+Atlanta Hawks,Philadelphia 76ers,Jan,no
+Cleveland Cavaliers,Phoenix Suns,Jan,yes
+Dallas Mavericks,Sacramento Kings,Jan,no
+Golden State Warriors,Utah Jazz,Jan,no
+San Antonio Spurs,Washington Wizards,Jan,yes
+Atlanta Hawks,Boston Celtics,Jan,no
+Memphis Grizzlies,Brooklyn Nets,Jan,no
+Washington Wizards,Chicago Bulls,Jan,no
+San Antonio Spurs,Charlotte Hornets,Jan,no
+Dallas Mavericks,Denver Nuggets,Jan,yes
+New Orleans Pelicans,Detroit Pistons,Jan,no
+Miami Heat,Golden State Warriors,Jan,yes
+Houston Rockets,Orlando Magic,Jan,yes
+Los Angeles Clippers,Portland Trail Blazers,Jan,no
+Philadelphia 76ers,Toronto Raptors,Jan,yes
+Oklahoma City Thunder,Houston Rockets,Jan,yes
+Cleveland Cavaliers,Los Angeles Lakers,Jan,no
+New York Knicks,Milwaukee Bucks,Jan,yes
+Chicago Bulls,Boston Celtics,Jan,no
+Denver Nuggets,Dallas Mavericks,Jan,yes
+Detroit Pistons,Indiana Pacers,Jan,no
+Cleveland Cavaliers,Los Angeles Clippers,Jan,no
+Golden State Warriors,Oklahoma City Thunder,Jan,yes
+Memphis Grizzlies,Orlando Magic,Jan,no
+New Orleans Pelicans,Philadelphia 76ers,Jan,yes
+Minnesota Timberwolves,Phoenix Suns,Jan,yes
+Miami Heat,Sacramento Kings,Jan,no
+Portland Trail Blazers,San Antonio Spurs,Jan,yes
+Atlanta Hawks,Toronto Raptors,Jan,no
+Los Angeles Lakers,Utah Jazz,Jan,yes
+Brooklyn Nets,Washington Wizards,Jan,no
+Washington Wizards,Brooklyn Nets,Jan,no
+Atlanta Hawks,Chicago Bulls,Jan,no
+Indiana Pacers,Charlotte Hornets,Jan,yes
+Minnesota Timberwolves,Denver Nuggets,Jan,no
+Philadelphia 76ers,Detroit Pistons,Jan,yes
+Golden State Warriors,Houston Rockets,Jan,no
+Portland Trail Blazers,Memphis Grizzlies,Jan,yes
+Los Angeles Clippers,Sacramento Kings,Jan,no
+Oklahoma City Thunder,Orlando Magic,Jan,no
+Utah Jazz,San Antonio Spurs,Jan,yes
+New Orleans Pelicans,Toronto Raptors,Jan,no
+Detroit Pistons,Atlanta Hawks,Jan,yes
+Minnesota Timberwolves,Charlotte Hornets,Jan,yes
+Chicago Bulls,Cleveland Cavaliers,Jan,yes
+Denver Nuggets,Golden State Warriors,Jan,yes
+Indiana Pacers,Houston Rockets,Jan,yes
+Boston Celtics,Los Angeles Clippers,Jan,yes
+Dallas Mavericks,Memphis Grizzlies,Jan,no
+Toronto Raptors,Milwaukee Bucks,Jan,no
+New Orleans Pelicans,New York Knicks,Jan,yes
+Los Angeles Lakers,Phoenix Suns,Jan,yes
+Sacramento Kings,Portland Trail Blazers,Jan,yes
+Philadelphia 76ers,Washington Wizards,Jan,yes
+San Antonio Spurs,Denver Nuggets,Jan,no
+Oklahoma City Thunder,Miami Heat,Jan,no
+Indiana Pacers,Atlanta Hawks,Jan,yes
+Miami Heat,Charlotte Hornets,Jan,yes
+Utah Jazz,Cleveland Cavaliers,Jan,yes
+Orlando Magic,Detroit Pistons,Jan,yes
+Houston Rockets,Golden State Warriors,Jan,yes
+Toronto Raptors,Memphis Grizzlies,Jan,yes
+Dallas Mavericks,Minnesota Timberwolves,Jan,no
+Los Angeles Lakers,New Orleans Pelicans,Jan,yes
+New York Knicks,Philadelphia 76ers,Jan,no
+Portland Trail Blazers,Phoenix Suns,Jan,yes
+Brooklyn Nets,Sacramento Kings,Jan,no
+Oklahoma City Thunder,Washington Wizards,Jan,no
+San Antonio Spurs,Chicago Bulls,Jan,yes
+Brooklyn Nets,Los Angeles Clippers,Jan,yes
+Utah Jazz,Milwaukee Bucks,Jan,no
+Boston Celtics,Portland Trail Blazers,Jan,no
+Oklahoma City Thunder,Atlanta Hawks,Jan,yes
+Charlotte Hornets,Cleveland Cavaliers,Jan,yes
+Chicago Bulls,Dallas Mavericks,Jan,no
+Boston Celtics,Denver Nuggets,Jan,no
+Sacramento Kings,Golden State Warriors,Jan,yes
+Indiana Pacers,Miami Heat,Jan,yes
+New Orleans Pelicans,Minnesota Timberwolves,Jan,no
+Orlando Magic,New York Knicks,Jan,yes
+Toronto Raptors,Philadelphia 76ers,Jan,no
+Houston Rockets,Phoenix Suns,Jan,no
+Los Angeles Lakers,San Antonio Spurs,Jan,yes
+New York Knicks,Charlotte Hornets,Jan,yes
+Philadelphia 76ers,Memphis Grizzlies,Jan,yes
+Detroit Pistons,Milwaukee Bucks,Jan,yes
+Washington Wizards,Portland Trail Blazers,Jan,yes
+Brooklyn Nets,Utah Jazz,Jan,yes
+Minnesota Timberwolves,Atlanta Hawks,Jan,yes
+Miami Heat,Chicago Bulls,Jan,no
+Oklahoma City Thunder,Cleveland Cavaliers,Jan,yes
+Washington Wizards,Denver Nuggets,Jan,no
+Boston Celtics,Golden State Warriors,Jan,yes
+Houston Rockets,Los Angeles Lakers,Jan,no
+Dallas Mavericks,New Orleans Pelicans,Jan,yes
+Indiana Pacers,Orlando Magic,Jan,no
+Los Angeles Clippers,Phoenix Suns,Jan,no
+Milwaukee Bucks,San Antonio Spurs,Jan,yes
+Detroit Pistons,Toronto Raptors,Jan,yes
+Denver Nuggets,Los Angeles Clippers,Jan,yes
+Orlando Magic,Memphis Grizzlies,Jan,yes
+Philadelphia 76ers,New Orleans Pelicans,Jan,yes
+Minnesota Timberwolves,Oklahoma City Thunder,Jan,yes
+Boston Celtics,Utah Jazz,Jan,no
+Memphis Grizzlies,Dallas Mavericks,Jan,no
+Cleveland Cavaliers,Detroit Pistons,Jan,no
+Chicago Bulls,Golden State Warriors,Jan,no
+Toronto Raptors,Indiana Pacers,Jan,no
+Washington Wizards,Los Angeles Lakers,Jan,no
+Milwaukee Bucks,Miami Heat,Jan,no
+Brooklyn Nets,Atlanta Hawks,Jan,yes
+Portland Trail Blazers,Cleveland Cavaliers,Jan,yes
+Dallas Mavericks,Houston Rockets,Jan,yes
+Boston Celtics,Minnesota Timberwolves,Jan,yes
+Denver Nuggets,New Orleans Pelicans,Jan,no
+Oklahoma City Thunder,New York Knicks,Jan,yes
+Detroit Pistons,Philadelphia 76ers,Jan,yes
+Washington Wizards,Phoenix Suns,Jan,yes
+Charlotte Hornets,San Antonio Spurs,Jan,yes
+Sacramento Kings,Toronto Raptors,Jan,yes
+Los Angeles Clippers,Utah Jazz,Jan,no
+New York Knicks,Indiana Pacers,Jan,yes
+Chicago Bulls,Los Angeles Lakers,Jan,yes
+Denver Nuggets,Memphis Grizzlies,Jan,yes
+Milwaukee Bucks,Orlando Magic,Jan,no
+Portland Trail Blazers,Atlanta Hawks,Jan,yes
+Houston Rockets,Boston Celtics,Jan,no
+Toronto Raptors,Brooklyn Nets,Jan,no
+Sacramento Kings,Cleveland Cavaliers,Jan,yes
+Dallas Mavericks,Miami Heat,Jan,no
+Los Angeles Clippers,New Orleans Pelicans,Jan,yes
+Minnesota Timberwolves,Philadelphia 76ers,Jan,yes
+Chicago Bulls,Phoenix Suns,Jan,yes
+Golden State Warriors,Utah Jazz,Jan,yes
+Philadelphia 76ers,Atlanta Hawks,Jan,yes
+Charlotte Hornets,Denver Nuggets,Jan,no
+Houston Rockets,Detroit Pistons,Jan,yes
+Phoenix Suns,Golden State Warriors,Jan,yes
+Sacramento Kings,Indiana Pacers,Jan,no
+Oklahoma City Thunder,Memphis Grizzlies,Jan,yes
+Portland Trail Blazers,Milwaukee Bucks,Jan,yes
+Cleveland Cavaliers,Minnesota Timberwolves,Jan,no
+Dallas Mavericks,Orlando Magic,Jan,no
+Los Angeles Clippers,San Antonio Spurs,Jan,no
+Toronto Raptors,Washington Wizards,Jan,no
+Miami Heat,Boston Celtics,Feb,no
+Los Angeles Lakers,New York Knicks,Feb,yes
+Los Angeles Clippers,Brooklyn Nets,Feb,yes
+Philadelphia 76ers,Cleveland Cavaliers,Feb,yes
+Minnesota Timberwolves,Dallas Mavericks,Feb,yes
+Atlanta Hawks,New Orleans Pelicans,Feb,yes
+Orlando Magic,Oklahoma City Thunder,Feb,yes
+Memphis Grizzlies,Phoenix Suns,Feb,no
+Milwaukee Bucks,Toronto Raptors,Feb,no
+Charlotte Hornets,Washington Wizards,Feb,no
+Miami Heat,Detroit Pistons,Feb,yes
+Boston Celtics,New York Knicks,Feb,no
+Denver Nuggets,Philadelphia 76ers,Feb,yes
+Utah Jazz,Portland Trail Blazers,Feb,yes
+Golden State Warriors,Sacramento Kings,Feb,no
+Washington Wizards,Atlanta Hawks,Feb,yes
+Denver Nuggets,Boston Celtics,Feb,yes
+Dallas Mavericks,Golden State Warriors,Feb,yes
+Chicago Bulls,Houston Rockets,Feb,yes
+Detroit Pistons,Indiana Pacers,Feb,yes
+Los Angeles Lakers,Milwaukee Bucks,Feb,yes
+Miami Heat,Minnesota Timberwolves,Feb,yes
+Oklahoma City Thunder,New Orleans Pelicans,Feb,no
+Orlando Magic,San Antonio Spurs,Feb,yes
+Brooklyn Nets,Toronto Raptors,Feb,no
+Memphis Grizzlies,Utah Jazz,Feb,no
+Washington Wizards,Charlotte Hornets,Feb,yes
+Los Angeles Clippers,Cleveland Cavaliers,Feb,yes
+Phoenix Suns,Portland Trail Blazers,Feb,yes
+Dallas Mavericks,Sacramento Kings,Feb,no
+Golden State Warriors,Atlanta Hawks,Feb,yes
+Philadelphia 76ers,Boston Celtics,Feb,yes
+New York Knicks,Brooklyn Nets,Feb,yes
+Denver Nuggets,Detroit Pistons,Feb,yes
+Milwaukee Bucks,Houston Rockets,Feb,yes
+Cleveland Cavaliers,Indiana Pacers,Feb,yes
+Memphis Grizzlies,Minnesota Timberwolves,Feb,yes
+New Orleans Pelicans,Oklahoma City Thunder,Feb,no
+Los Angeles Lakers,Orlando Magic,Feb,yes
+Utah Jazz,Phoenix Suns,Feb,yes
+Miami Heat,San Antonio Spurs,Feb,yes
+Los Angeles Clippers,Toronto Raptors,Feb,yes
+Portland Trail Blazers,Dallas Mavericks,Feb,yes
+Boston Celtics,Milwaukee Bucks,Feb,yes
+Chicago Bulls,New Orleans Pelicans,Feb,no
+Golden State Warriors,New York Knicks,Feb,no
+Charlotte Hornets,Philadelphia 76ers,Feb,yes
+Sacramento Kings,Utah Jazz,Feb,yes
+Brooklyn Nets,Washington Wizards,Feb,yes
+Indiana Pacers,Charlotte Hornets,Feb,no
+Los Angeles Lakers,Cleveland Cavaliers,Feb,yes
+Minnesota Timberwolves,Detroit Pistons,Feb,no
+Portland Trail Blazers,Houston Rockets,Feb,no
+Atlanta Hawks,Memphis Grizzlies,Feb,yes
+Los Angeles Clippers,Oklahoma City Thunder,Feb,yes
+Chicago Bulls,Orlando Magic,Feb,no
+Phoenix Suns,Sacramento Kings,Feb,yes
+San Antonio Spurs,Toronto Raptors,Feb,yes
+Los Angeles Clippers,Dallas Mavericks,Feb,no
+Oklahoma City Thunder,Denver Nuggets,Feb,no
+San Antonio Spurs,Indiana Pacers,Feb,no
+New York Knicks,Miami Heat,Feb,yes
+Brooklyn Nets,Milwaukee Bucks,Feb,yes
+Atlanta Hawks,Minnesota Timberwolves,Feb,no
+Utah Jazz,New Orleans Pelicans,Feb,no
+Golden State Warriors,Philadelphia 76ers,Feb,no
+Orlando Magic,Washington Wizards,Feb,yes
+Sacramento Kings,Chicago Bulls,Feb,yes
+Detroit Pistons,Charlotte Hornets,Feb,no
+Denver Nuggets,Los Angeles Lakers,Feb,no
+Brooklyn Nets,Memphis Grizzlies,Feb,yes
+Houston Rockets,Phoenix Suns,Feb,no
+Atlanta Hawks,Boston Celtics,Feb,yes
+Miami Heat,Cleveland Cavaliers,Feb,yes
+Utah Jazz,Dallas Mavericks,Feb,yes
+San Antonio Spurs,Detroit Pistons,Feb,no
+Houston Rockets,Los Angeles Clippers,Feb,yes
+Sacramento Kings,Milwaukee Bucks,Feb,yes
+Golden State Warriors,Minnesota Timberwolves,Feb,no
+Indiana Pacers,New Orleans Pelicans,Feb,no
+Memphis Grizzlies,Oklahoma City Thunder,Feb,yes
+New York Knicks,Orlando Magic,Feb,yes
+Los Angeles Lakers,Portland Trail Blazers,Feb,yes
+Washington Wizards,Toronto Raptors,Feb,yes
+Cleveland Cavaliers,Chicago Bulls,Feb,yes
+San Antonio Spurs,Los Angeles Clippers,Feb,yes
+Dallas Mavericks,Oklahoma City Thunder,Feb,yes
+Toronto Raptors,Atlanta Hawks,Feb,no
+Houston Rockets,Dallas Mavericks,Feb,yes
+Chicago Bulls,Detroit Pistons,Feb,yes
+San Antonio Spurs,Golden State Warriors,Feb,yes
+Brooklyn Nets,Los Angeles Lakers,Feb,no
+Denver Nuggets,Milwaukee Bucks,Feb,yes
+Phoenix Suns,Minnesota Timberwolves,Feb,yes
+Miami Heat,New York Knicks,Feb,no
+New Orleans Pelicans,Orlando Magic,Feb,yes
+Indiana Pacers,Philadelphia 76ers,Feb,no
+Boston Celtics,Sacramento Kings,Feb,yes
+Portland Trail Blazers,Utah Jazz,Feb,yes
+Cleveland Cavaliers,Washington Wizards,Feb,no
+Phoenix Suns,Chicago Bulls,Feb,yes
+Oklahoma City Thunder,Charlotte Hornets,Feb,no
+Toronto Raptors,Houston Rockets,Feb,yes
+Sacramento Kings,Los Angeles Clippers,Feb,yes
+New Orleans Pelicans,Miami Heat,Feb,no
+Charlotte Hornets,Dallas Mavericks,Feb,yes
+Washington Wizards,Detroit Pistons,Feb,yes
+Golden State Warriors,Indiana Pacers,Feb,yes
+Boston Celtics,Los Angeles Lakers,Feb,yes
+Atlanta Hawks,Milwaukee Bucks,Feb,no
+Cleveland Cavaliers,New York Knicks,Feb,no
+Denver Nuggets,Oklahoma City Thunder,Feb,yes
+Philadelphia 76ers,Orlando Magic,Feb,yes
+Memphis Grizzlies,Portland Trail Blazers,Feb,no
+Milwaukee Bucks,Chicago Bulls,Feb,yes
+Brooklyn Nets,Denver Nuggets,Feb,no
+Minnesota Timberwolves,Houston Rockets,Feb,yes
+Memphis Grizzlies,Los Angeles Clippers,Feb,no
+Philadelphia 76ers,Miami Heat,Feb,yes
+Toronto Raptors,New Orleans Pelicans,Feb,yes
+Boston Celtics,Phoenix Suns,Feb,no
+San Antonio Spurs,Utah Jazz,Feb,yes
+Toronto Raptors,Dallas Mavericks,Feb,yes
+Cleveland Cavaliers,Detroit Pistons,Feb,no
+Indiana Pacers,Oklahoma City Thunder,Feb,yes
+Golden State Warriors,Washington Wizards,Feb,no
+Dallas Mavericks,Atlanta Hawks,Feb,yes
+New York Knicks,Boston Celtics,Feb,yes
+Charlotte Hornets,Chicago Bulls,Feb,no
+Phoenix Suns,Denver Nuggets,Feb,no
+Los Angeles Clippers,Houston Rockets,Feb,yes
+Philadelphia 76ers,Milwaukee Bucks,Feb,yes
+Washington Wizards,Minnesota Timberwolves,Feb,yes
+Brooklyn Nets,New Orleans Pelicans,Feb,yes
+Miami Heat,Orlando Magic,Feb,no
+San Antonio Spurs,Portland Trail Blazers,Feb,yes
+Memphis Grizzlies,Sacramento Kings,Feb,yes
+Los Angeles Lakers,Utah Jazz,Feb,no
+Golden State Warriors,Cleveland Cavaliers,Feb,yes
+Oklahoma City Thunder,Phoenix Suns,Feb,yes
+Orlando Magic,Atlanta Hawks,Feb,yes
+Charlotte Hornets,Boston Celtics,Feb,yes
+Minnesota Timberwolves,Chicago Bulls,Feb,yes
+Utah Jazz,Denver Nuggets,Feb,no
+New York Knicks,Detroit Pistons,Feb,no
+Brooklyn Nets,Houston Rockets,Feb,yes
+Cleveland Cavaliers,Indiana Pacers,Feb,yes
+Milwaukee Bucks,Los Angeles Lakers,Feb,yes
+Los Angeles Clippers,Memphis Grizzlies,Feb,no
+Miami Heat,New Orleans Pelicans,Feb,yes
+Washington Wizards,Philadelphia 76ers,Feb,yes
+Oklahoma City Thunder,Portland Trail Blazers,Feb,yes
+San Antonio Spurs,Sacramento Kings,Feb,no
+Golden State Warriors,Toronto Raptors,Feb,no
+Brooklyn Nets,Dallas Mavericks,Feb,no
+Atlanta Hawks,Miami Heat,Feb,no
+Memphis Grizzlies,Minnesota Timberwolves,Feb,no
+Toronto Raptors,New York Knicks,Feb,yes
+San Antonio Spurs,Phoenix Suns,Feb,no
+Milwaukee Bucks,Utah Jazz,Feb,yes
+Detroit Pistons,Washington Wizards,Feb,yes
+Golden State Warriors,Boston Celtics,Mar,no
+Los Angeles Clippers,Chicago Bulls,Mar,no
+New Orleans Pelicans,Denver Nuggets,Mar,no
+Cleveland Cavaliers,Houston Rockets,Mar,yes
+Philadelphia 76ers,Indiana Pacers,Mar,yes
+Oklahoma City Thunder,Los Angeles Lakers,Mar,no
+Charlotte Hornets,Orlando Magic,Mar,no
+Portland Trail Blazers,Sacramento Kings,Mar,no
+Golden State Warriors,Brooklyn Nets,Mar,yes
+New Orleans Pelicans,Dallas Mavericks,Mar,yes
+Phoenix Suns,Miami Heat,Mar,yes
+Los Angeles Clippers,Minnesota Timberwolves,Mar,no
+Toronto Raptors,Philadelphia 76ers,Mar,no
+Houston Rockets,Atlanta Hawks,Mar,yes
+Washington Wizards,Chicago Bulls,Mar,yes
+Los Angeles Lakers,Charlotte Hornets,Mar,yes
+Boston Celtics,Cleveland Cavaliers,Mar,yes
+Milwaukee Bucks,Denver Nuggets,Mar,yes
+Utah Jazz,Memphis Grizzlies,Mar,no
+Sacramento Kings,New York Knicks,Mar,no
+Utah Jazz,Boston Celtics,Mar,yes
+Charlotte Hornets,Brooklyn Nets,Mar,no
+Milwaukee Bucks,Golden State Warriors,Mar,yes
+Memphis Grizzlies,Houston Rockets,Mar,no
+New York Knicks,Indiana Pacers,Mar,yes
+Portland Trail Blazers,Los Angeles Clippers,Mar,no
+Los Angeles Lakers,Miami Heat,Mar,yes
+Denver Nuggets,Minnesota Timberwolves,Mar,no
+Detroit Pistons,New Orleans Pelicans,Mar,yes
+Philadelphia 76ers,Oklahoma City Thunder,Mar,yes
+Phoenix Suns,Orlando Magic,Mar,no
+Sacramento Kings,San Antonio Spurs,Mar,yes
+Cleveland Cavaliers,Toronto Raptors,Mar,no
+Oklahoma City Thunder,Chicago Bulls,Mar,yes
+Dallas Mavericks,Portland Trail Blazers,Mar,yes
+Cleveland Cavaliers,Atlanta Hawks,Mar,yes
+Phoenix Suns,Brooklyn Nets,Mar,no
+Toronto Raptors,Charlotte Hornets,Mar,yes
+Dallas Mavericks,Golden State Warriors,Mar,yes
+Detroit Pistons,Houston Rockets,Mar,yes
+Chicago Bulls,Indiana Pacers,Mar,yes
+Los Angeles Lakers,Memphis Grizzlies,Mar,yes
+Boston Celtics,New Orleans Pelicans,Mar,no
+Sacramento Kings,Orlando Magic,Mar,yes
+Utah Jazz,Philadelphia 76ers,Mar,no
+Denver Nuggets,San Antonio Spurs,Mar,yes
+Miami Heat,Washington Wizards,Mar,yes
+Phoenix Suns,Cleveland Cavaliers,Mar,yes
+Houston Rockets,Denver Nuggets,Mar,no
+Sacramento Kings,Miami Heat,Mar,yes
+Washington Wizards,Milwaukee Bucks,Mar,yes
+Portland Trail Blazers,Minnesota Timberwolves,Mar,yes
+Memphis Grizzlies,New Orleans Pelicans,Mar,yes
+Indiana Pacers,New York Knicks,Mar,no
+Atlanta Hawks,Philadelphia 76ers,Mar,yes
+Utah Jazz,Brooklyn Nets,Mar,no
+Charlotte Hornets,Detroit Pistons,Mar,no
+Los Angeles Clippers,Golden State Warriors,Mar,yes
+Dallas Mavericks,Los Angeles Lakers,Mar,no
+Toronto Raptors,Oklahoma City Thunder,Mar,yes
+Boston Celtics,Orlando Magic,Mar,yes
+Chicago Bulls,San Antonio Spurs,Mar,yes
+Sacramento Kings,Atlanta Hawks,Mar,yes
+Memphis Grizzlies,Chicago Bulls,Mar,no
+Washington Wizards,Charlotte Hornets,Mar,no
+New York Knicks,Denver Nuggets,Mar,yes
+Minnesota Timberwolves,Los Angeles Clippers,Mar,yes
+Boston Celtics,Miami Heat,Mar,no
+New Orleans Pelicans,Milwaukee Bucks,Mar,no
+Golden State Warriors,Phoenix Suns,Mar,no
+New Orleans Pelicans,Brooklyn Nets,Mar,no
+Cleveland Cavaliers,Dallas Mavericks,Mar,no
+Orlando Magic,Indiana Pacers,Mar,yes
+Detroit Pistons,Los Angeles Lakers,Mar,yes
+Toronto Raptors,San Antonio Spurs,Mar,yes
+New York Knicks,Utah Jazz,Mar,yes
+Memphis Grizzlies,Boston Celtics,Mar,yes
+Sacramento Kings,Charlotte Hornets,Mar,no
+Atlanta Hawks,Denver Nuggets,Mar,yes
+Detroit Pistons,Golden State Warriors,Mar,yes
+Brooklyn Nets,Miami Heat,Mar,yes
+Orlando Magic,Milwaukee Bucks,Mar,yes
+Los Angeles Clippers,Oklahoma City Thunder,Mar,no
+Chicago Bulls,Philadelphia 76ers,Mar,no
+Minnesota Timberwolves,Phoenix Suns,Mar,yes
+Houston Rockets,Portland Trail Blazers,Mar,yes
+Milwaukee Bucks,Indiana Pacers,Mar,yes
+New York Knicks,Los Angeles Lakers,Mar,no
+Cleveland Cavaliers,San Antonio Spurs,Mar,no
+Houston Rockets,Utah Jazz,Mar,yes
+Memphis Grizzlies,Washington Wizards,Mar,yes
+Orlando Magic,Boston Celtics,Mar,yes
+Chicago Bulls,Charlotte Hornets,Mar,yes
+Los Angeles Clippers,Dallas Mavericks,Mar,yes
+Golden State Warriors,Denver Nuggets,Mar,yes
+Minnesota Timberwolves,Oklahoma City Thunder,Mar,yes
+Sacramento Kings,Philadelphia 76ers,Mar,yes
+Atlanta Hawks,Phoenix Suns,Mar,no
+Detroit Pistons,Portland Trail Blazers,Mar,yes
+Miami Heat,Toronto Raptors,Mar,yes
+New York Knicks,Golden State Warriors,Mar,yes
+Boston Celtics,Indiana Pacers,Mar,no
+Milwaukee Bucks,Memphis Grizzlies,Mar,yes
+Brooklyn Nets,Philadelphia 76ers,Mar,no
+Detroit Pistons,Utah Jazz,Mar,yes
+Sacramento Kings,Washington Wizards,Mar,yes
+Houston Rockets,Los Angeles Clippers,Mar,no
+Atlanta Hawks,Los Angeles Lakers,Mar,no
+Denver Nuggets,New Orleans Pelicans,Mar,no
+Chicago Bulls,Oklahoma City Thunder,Mar,yes
+Cleveland Cavaliers,Orlando Magic,Mar,no
+New York Knicks,Phoenix Suns,Mar,yes
+Minnesota Timberwolves,San Antonio Spurs,Mar,yes
+Portland Trail Blazers,Toronto Raptors,Mar,no
+Philadelphia 76ers,Boston Celtics,Mar,yes
+Oklahoma City Thunder,Dallas Mavericks,Mar,yes
+Los Angeles Lakers,Golden State Warriors,Mar,yes
+Toronto Raptors,Indiana Pacers,Mar,no
+Denver Nuggets,Memphis Grizzlies,Mar,yes
+Cleveland Cavaliers,Miami Heat,Mar,yes
+Brooklyn Nets,Minnesota Timberwolves,Mar,no
+Atlanta Hawks,Sacramento Kings,Mar,no
+Charlotte Hornets,Utah Jazz,Mar,yes
+Portland Trail Blazers,Washington Wizards,Mar,yes
+Memphis Grizzlies,Detroit Pistons,Mar,yes
+Orlando Magic,Houston Rockets,Mar,yes
+Charlotte Hornets,Los Angeles Clippers,Mar,yes
+Milwaukee Bucks,New Orleans Pelicans,Mar,yes
+San Antonio Spurs,New York Knicks,Mar,yes
+Indiana Pacers,Chicago Bulls,Mar,yes
+Brooklyn Nets,Cleveland Cavaliers,Mar,yes
+Orlando Magic,Dallas Mavericks,Mar,yes
+Atlanta Hawks,Golden State Warriors,Mar,yes
+Portland Trail Blazers,Miami Heat,Mar,yes
+San Antonio Spurs,Milwaukee Bucks,Mar,no
+Boston Celtics,Oklahoma City Thunder,Mar,yes
+Detroit Pistons,Philadelphia 76ers,Mar,yes
+Los Angeles Clippers,Sacramento Kings,Mar,no
+Minnesota Timberwolves,Toronto Raptors,Mar,yes
+Washington Wizards,Utah Jazz,Mar,no
+Denver Nuggets,Houston Rockets,Mar,yes
+Utah Jazz,Los Angeles Lakers,Mar,no
+Minnesota Timberwolves,New York Knicks,Mar,no
+New Orleans Pelicans,Phoenix Suns,Mar,yes
+Milwaukee Bucks,Brooklyn Nets,Mar,yes
+Toronto Raptors,Chicago Bulls,Mar,yes
+Indiana Pacers,Cleveland Cavaliers,Mar,yes
+Memphis Grizzlies,Dallas Mavericks,Mar,no
+New Orleans Pelicans,Golden State Warriors,Mar,yes
+Washington Wizards,Los Angeles Clippers,Mar,yes
+Denver Nuggets,Miami Heat,Mar,yes
+Atlanta Hawks,Oklahoma City Thunder,Mar,yes
+Portland Trail Blazers,Orlando Magic,Mar,yes
+New York Knicks,Philadelphia 76ers,Mar,yes
+Charlotte Hornets,Sacramento Kings,Mar,yes
+Boston Celtics,San Antonio Spurs,Mar,yes
+Chicago Bulls,Detroit Pistons,Mar,yes
+Utah Jazz,Golden State Warriors,Mar,yes
+Phoenix Suns,Houston Rockets,Mar,no
+Brooklyn Nets,Indiana Pacers,Mar,no
+Portland Trail Blazers,Memphis Grizzlies,Mar,yes
+San Antonio Spurs,Atlanta Hawks,Mar,no
+Detroit Pistons,Boston Celtics,Mar,no
+New Orleans Pelicans,Los Angeles Clippers,Mar,yes
+Philadelphia 76ers,Los Angeles Lakers,Mar,yes
+Cleveland Cavaliers,Milwaukee Bucks,Mar,no
+Charlotte Hornets,Minnesota Timberwolves,Mar,no
+Miami Heat,Oklahoma City Thunder,Mar,yes
+Denver Nuggets,Orlando Magic,Mar,no
+Dallas Mavericks,Phoenix Suns,Mar,yes
+Washington Wizards,Sacramento Kings,Mar,yes
+New York Knicks,Toronto Raptors,Mar,yes
+Boston Celtics,Brooklyn Nets,Mar,no
+Charlotte Hornets,Chicago Bulls,Mar,yes
+Washington Wizards,Golden State Warriors,Mar,yes
+Houston Rockets,Indiana Pacers,Mar,no
+Memphis Grizzlies,New York Knicks,Mar,no
+Minnesota Timberwolves,Utah Jazz,Mar,no
+San Antonio Spurs,Dallas Mavericks,Mar,yes
+Toronto Raptors,Detroit Pistons,Mar,yes
+Miami Heat,Milwaukee Bucks,Mar,yes
+Los Angeles Lakers,Oklahoma City Thunder,Mar,yes
+Golden State Warriors,Portland Trail Blazers,Mar,no
+Philadelphia 76ers,Sacramento Kings,Mar,yes
+Miami Heat,Boston Celtics,Mar,no
+Brooklyn Nets,Charlotte Hornets,Mar,no
+Philadelphia 76ers,Denver Nuggets,Mar,no
+Cleveland Cavaliers,Memphis Grizzlies,Mar,no
+Los Angeles Lakers,Minnesota Timberwolves,Mar,no
+Houston Rockets,New Orleans Pelicans,Mar,no
+Los Angeles Clippers,New York Knicks,Mar,no
+Atlanta Hawks,Orlando Magic,Mar,no
+Sacramento Kings,Phoenix Suns,Mar,no
+Oklahoma City Thunder,San Antonio Spurs,Mar,yes
+Chicago Bulls,Toronto Raptors,Mar,no
+Portland Trail Blazers,Utah Jazz,Mar,no
+Indiana Pacers,Washington Wizards,Mar,no
+Indiana Pacers,Milwaukee Bucks,Mar,yes
+Miami Heat,Atlanta Hawks,Mar,yes
+Cleveland Cavaliers,Brooklyn Nets,Mar,yes
+Utah Jazz,Denver Nuggets,Mar,yes
+Minnesota Timberwolves,Houston Rockets,Mar,yes
+Golden State Warriors,Memphis Grizzlies,Mar,no
+Sacramento Kings,New Orleans Pelicans,Mar,yes
+Boston Celtics,New York Knicks,Mar,no
+Detroit Pistons,Orlando Magic,Mar,no
+Los Angeles Clippers,Philadelphia 76ers,Mar,no
+Portland Trail Blazers,Phoenix Suns,Mar,no
+Dallas Mavericks,San Antonio Spurs,Mar,yes
+Los Angeles Lakers,Toronto Raptors,Mar,yes
+Charlotte Hornets,Washington Wizards,Mar,yes
+New York Knicks,Chicago Bulls,Mar,yes
+Atlanta Hawks,Charlotte Hornets,Mar,yes
+Golden State Warriors,Milwaukee Bucks,Mar,no
+Denver Nuggets,Portland Trail Blazers,Mar,yes
+Oklahoma City Thunder,Utah Jazz,Mar,yes
+Los Angeles Clippers,Boston Celtics,Mar,no
+Los Angeles Lakers,Brooklyn Nets,Mar,yes
+Philadelphia 76ers,Cleveland Cavaliers,Mar,yes
+Dallas Mavericks,Indiana Pacers,Mar,yes
+Detroit Pistons,Miami Heat,Mar,yes
+Minnesota Timberwolves,New Orleans Pelicans,Mar,yes
+Oklahoma City Thunder,Phoenix Suns,Mar,no
+Memphis Grizzlies,San Antonio Spurs,Mar,yes
+Houston Rockets,Washington Wizards,Mar,no
+Milwaukee Bucks,Atlanta Hawks,Mar,yes
+Boston Celtics,Charlotte Hornets,Mar,no
+Sacramento Kings,Memphis Grizzlies,Mar,yes
+Utah Jazz,Minnesota Timberwolves,Mar,no
+Los Angeles Lakers,Philadelphia 76ers,Mar,no
+Phoenix Suns,Portland Trail Blazers,Mar,yes
+Houston Rockets,Toronto Raptors,Mar,yes
+Indiana Pacers,Brooklyn Nets,Mar,yes
+Atlanta Hawks,Detroit Pistons,Mar,yes
+Golden State Warriors,Los Angeles Clippers,Mar,no
+San Antonio Spurs,Miami Heat,Mar,no
+Indiana Pacers,Boston Celtics,Apr,yes
+Detroit Pistons,Charlotte Hornets,Apr,yes
+Sacramento Kings,Houston Rockets,Apr,yes
+New Orleans Pelicans,Los Angeles Lakers,Apr,no
+Chicago Bulls,Milwaukee Bucks,Apr,yes
+Toronto Raptors,Minnesota Timberwolves,Apr,no
+Brooklyn Nets,New York Knicks,Apr,no
+Dallas Mavericks,Oklahoma City Thunder,Apr,no
+San Antonio Spurs,Orlando Magic,Apr,no
+Los Angeles Clippers,Portland Trail Blazers,Apr,no
+Denver Nuggets,Utah Jazz,Apr,yes
+Philadelphia 76ers,Washington Wizards,Apr,yes
+Miami Heat,Cleveland Cavaliers,Apr,yes
+Houston Rockets,Dallas Mavericks,Apr,no
+Phoenix Suns,Golden State Warriors,Apr,yes
+Milwaukee Bucks,Boston Celtics,Apr,no
+Toronto Raptors,Brooklyn Nets,Apr,yes
+Detroit Pistons,Chicago Bulls,Apr,yes
+Charlotte Hornets,Indiana Pacers,Apr,yes
+Portland Trail Blazers,Los Angeles Lakers,Apr,no
+Oklahoma City Thunder,Memphis Grizzlies,Apr,yes
+Orlando Magic,Minnesota Timberwolves,Apr,no
+New Orleans Pelicans,Sacramento Kings,Apr,no
+Denver Nuggets,San Antonio Spurs,Apr,yes
+New York Knicks,Washington Wizards,Apr,yes
+Brooklyn Nets,Atlanta Hawks,Apr,yes
+Philadelphia 76ers,Charlotte Hornets,Apr,yes
+Golden State Warriors,Dallas Mavericks,Apr,no
+Los Angeles Clippers,Denver Nuggets,Apr,no
+Miami Heat,Detroit Pistons,Apr,yes
+Washington Wizards,Memphis Grizzlies,Apr,no
+Orlando Magic,Milwaukee Bucks,Apr,no
+Utah Jazz,Phoenix Suns,Apr,yes
+New Orleans Pelicans,Portland Trail Blazers,Apr,yes
+Boston Celtics,Toronto Raptors,Apr,no
+Chicago Bulls,Cleveland Cavaliers,Apr,yes
+Miami Heat,Indiana Pacers,Apr,yes
+Los Angeles Clippers,Los Angeles Lakers,Apr,no
+Philadelphia 76ers,New York Knicks,Apr,yes
+Houston Rockets,Oklahoma City Thunder,Apr,no
+Utah Jazz,Sacramento Kings,Apr,no
+Golden State Warriors,San Antonio Spurs,Apr,yes
+Portland Trail Blazers,Brooklyn Nets,Apr,yes
+Phoenix Suns,Atlanta Hawks,Apr,yes
+Los Angeles Lakers,Los Angeles Clippers,Apr,yes
+Charlotte Hornets,Miami Heat,Apr,yes
+Golden State Warriors,New Orleans Pelicans,Apr,yes
+San Antonio Spurs,Oklahoma City Thunder,Apr,no
+Minnesota Timberwolves,Sacramento Kings,Apr,yes
+Atlanta Hawks,Brooklyn Nets,Apr,no
+Toronto Raptors,Charlotte Hornets,Apr,no
+Phoenix Suns,Dallas Mavericks,Apr,yes
+Los Angeles Lakers,Denver Nuggets,Apr,yes
+Boston Celtics,Detroit Pistons,Apr,no
+New Orleans Pelicans,Memphis Grizzlies,Apr,yes
+Cleveland Cavaliers,Milwaukee Bucks,Apr,no
+Indiana Pacers,New York Knicks,Apr,no
+Chicago Bulls,Orlando Magic,Apr,yes
+Washington Wizards,Philadelphia 76ers,Apr,no
+Minnesota Timberwolves,Portland Trail Blazers,Apr,yes
+Houston Rockets,San Antonio Spurs,Apr,yes
+Sacramento Kings,Utah Jazz,Apr,yes
+Portland Trail Blazers,Golden State Warriors,Apr,yes
+Chicago Bulls,Miami Heat,Apr,no
+Charlotte Hornets,Atlanta Hawks,Apr,yes
+Washington Wizards,Brooklyn Nets,Apr,yes
+Boston Celtics,Cleveland Cavaliers,Apr,no
+Dallas Mavericks,Denver Nuggets,Apr,no
+Indiana Pacers,Detroit Pistons,Apr,no
+San Antonio Spurs,Houston Rockets,Apr,no
+Minnesota Timberwolves,Los Angeles Lakers,Apr,yes
+Phoenix Suns,New Orleans Pelicans,Apr,yes
+Milwaukee Bucks,New York Knicks,Apr,no
+Sacramento Kings,Oklahoma City Thunder,Apr,yes
+Toronto Raptors,Orlando Magic,Apr,no
+Memphis Grizzlies,Utah Jazz,Apr,no
+Philadelphia 76ers,Chicago Bulls,Apr,yes
+Minnesota Timberwolves,Golden State Warriors,Apr,yes
+Memphis Grizzlies,Los Angeles Clippers,Apr,yes
+Toronto Raptors,Miami Heat,Apr,no
+New York Knicks,Orlando Magic,Apr,no
+Utah Jazz,Portland Trail Blazers,Apr,no
+Cleveland Cavaliers,Boston Celtics,Apr,yes
+Sacramento Kings,Denver Nuggets,Apr,yes
+Charlotte Hornets,Detroit Pistons,Apr,yes
+New Orleans Pelicans,Houston Rockets,Apr,yes
+Oklahoma City Thunder,Indiana Pacers,Apr,yes
+Dallas Mavericks,Los Angeles Lakers,Apr,no
+Brooklyn Nets,Milwaukee Bucks,Apr,yes
+Phoenix Suns,San Antonio Spurs,Apr,yes
+Atlanta Hawks,Washington Wizards,Apr,yes
+New York Knicks,Atlanta Hawks,Apr,no
+Chicago Bulls,Brooklyn Nets,Apr,no
+Houston Rockets,Charlotte Hornets,Apr,no
+Detroit Pistons,Cleveland Cavaliers,Apr,yes
+Memphis Grizzlies,Golden State Warriors,Apr,yes
+Denver Nuggets,Los Angeles Clippers,Apr,yes
+Orlando Magic,Miami Heat,Apr,yes
+New Orleans Pelicans,Minnesota Timberwolves,Apr,no
+Portland Trail Blazers,Oklahoma City Thunder,Apr,yes
+Milwaukee Bucks,Philadelphia 76ers,Apr,no
+Los Angeles Lakers,Sacramento Kings,Apr,yes
+Dallas Mavericks,Utah Jazz,Apr,yes
+Toronto Raptors,Boston Celtics,Apr,yes
+Washington Wizards,Indiana Pacers,Apr,yes
+Los Angeles Clippers,Phoenix Suns,Apr,no
+Orlando Magic,Brooklyn Nets,Apr,yes
+Atlanta Hawks,Chicago Bulls,Apr,yes
+Washington Wizards,Cleveland Cavaliers,Apr,yes
+Portland Trail Blazers,Dallas Mavericks,Apr,yes
+Denver Nuggets,Golden State Warriors,Apr,yes
+Utah Jazz,Houston Rockets,Apr,yes
+Sacramento Kings,Los Angeles Lakers,Apr,no
+Indiana Pacers,Memphis Grizzlies,Apr,yes
+Boston Celtics,Milwaukee Bucks,Apr,no
+Oklahoma City Thunder,Minnesota Timberwolves,Apr,no
+San Antonio Spurs,New Orleans Pelicans,Apr,yes
+Detroit Pistons,New York Knicks,Apr,no
+Miami Heat,Philadelphia 76ers,Apr,no
+Charlotte Hornets,Toronto Raptors,Apr,yes
