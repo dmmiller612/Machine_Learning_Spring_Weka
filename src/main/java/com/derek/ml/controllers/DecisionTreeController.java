@@ -33,13 +33,6 @@ public class DecisionTreeController {
     }
 
     @ResponseBody
-    @RequestMapping(value ="/createArff", method={RequestMethod.POST})
-    public void createArff(@RequestBody FileName fileName) throws Exception{
-        Instances instances = loadData.getDataFromCsvFile(fileName.getFileName() + ".csv");
-        loadData.saveToArff(instances, fileName.getFileName() + ".arff");
-    }
-
-    @ResponseBody
     @RequestMapping(value="/decisiontree/test", method={RequestMethod.GET})
     public String testingError(DecisionTree decisionTree) throws Exception{
         return decisionTreeService.handleSplitData(decisionTree, 1, "");
@@ -48,12 +41,19 @@ public class DecisionTreeController {
     @ResponseBody
     @RequestMapping(value="/decisiontree/model", method={RequestMethod.POST})
     public void createModel(DecisionTree decisionTree) throws Exception{
-       decisionTreeService.createModel(decisionTree);
+        decisionTreeService.createModel(decisionTree);
     }
 
     @ResponseBody
     @RequestMapping(value="/decisiontree/model", method={RequestMethod.GET})
     public String getModel(DecisionTree decisionTree) throws Exception{
         return decisionTreeService.getModel(decisionTree);
+    }
+
+    @ResponseBody
+    @RequestMapping(value ="/createArff", method={RequestMethod.POST})
+    public void createArff(@RequestBody FileName fileName) throws Exception{
+        Instances instances = loadData.getDataFromCsvFile(fileName.getFileName() + ".csv");
+        loadData.saveToArff(instances, fileName.getFileName() + ".arff");
     }
 }

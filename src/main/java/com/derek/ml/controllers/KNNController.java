@@ -23,7 +23,7 @@ public class KNNController {
     }
 
     @ResponseBody
-    @RequestMapping(value ="/knn/testing", method={RequestMethod.GET})
+    @RequestMapping(value ="/knn/test", method={RequestMethod.GET})
     public String knnTesting(NearestNeighbor nearestNeighbor) throws Exception{
         return knnService.handleSplitData(nearestNeighbor, 1, "");
     }
