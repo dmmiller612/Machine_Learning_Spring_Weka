@@ -118,6 +118,30 @@ public class Server extends WebMvcAutoConfiguration {
         System.out.println("\n Loading.... \n");
         System.out.println(svmService.getModel(new SVMModel(SVMModel.KernelType.RBF, ML.Files.Census)));
 
+        System.out.println("\n\n =================================================================== \n");
+        System.out.println("\n\n====================== \n Census Dataset With Feature Selection \n ========================");
+        System.out.println("\n =================================================================== \n\n");
+
+        //census Neural Network Feature Selection
+        System.out.println("\n\n ===================== \n Census Neural Network model with Feature selection. Epoch Rate=250 and Hidden Layers=10 \n ===========================\n");
+        System.out.println("\n Loading.... \n");
+        System.out.println(neuralNetworkService.getModel(new NeuralNetworkModel(10, 250, ML.Files.Census, true)));
+
+        //census Neural Network Feature Selection
+        System.out.println("\n\n ===================== \n Census Neural Network model with Feature selection. Epoch Rate=250 and Hidden Layers=5 \n ===========================\n");
+        System.out.println("\n Loading.... \n");
+        System.out.println(neuralNetworkService.getModel(new NeuralNetworkModel(5, 250, ML.Files.Census, true)));
+
+        //census evaluation knn with feature selection
+        System.out.println("\n\n ===================== \n Census KNN model with feature selection. k=5 \n ===========================\n");
+        System.out.println("\n Loading.... \n");
+        System.out.println(knnService.getModel(new NearestNeighbor(5, ML.Files.Census, true)));
+
+        //census evaluation knn with feature selection
+        System.out.println("\n\n ===================== \n Census KNN model with feature selection. k=3 \n ===========================\n");
+        System.out.println("\n Loading.... \n");
+        System.out.println(knnService.getModel(new NearestNeighbor(3, ML.Files.Census, true)));
+
         System.out.println("\n \n ================================ \n FINISHED! \n ==============================");
 
     }

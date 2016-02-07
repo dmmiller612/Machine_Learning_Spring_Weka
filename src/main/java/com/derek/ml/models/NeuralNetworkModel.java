@@ -14,6 +14,13 @@ public class NeuralNetworkModel extends ML{
         super.setFileName(fileName);
     }
 
+    public NeuralNetworkModel(int hiddenLayers, int epochRate, ML.Files fileName, boolean featureSelection){
+        this.hiddenLayers = hiddenLayers;
+        this.epochRate = epochRate;
+        super.setFileName(fileName);
+        this.featureSelection = featureSelection;
+    }
+
     public int getEpochRate() {
         return epochRate;
     }

@@ -17,6 +17,12 @@ public class NearestNeighbor extends ML {
         super.setFileName(fileName);
     }
 
+    public NearestNeighbor(int k, ML.Files fileName, boolean featureSelection){
+        this.k = k;
+        super.setFileName(fileName);
+        this.featureSelection = featureSelection;
+    }
+
     public static enum TreeTypes {
         BallTree, CoverTree, Linear
     }
