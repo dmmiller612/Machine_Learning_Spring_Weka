@@ -56,4 +56,11 @@ public class DecisionTreeController {
         Instances instances = loadData.getDataFromCsvFile(fileName.getFileName() + ".csv");
         loadData.saveToArff(instances, fileName.getFileName() + ".arff");
     }
+
+
+    @ResponseBody
+    @RequestMapping(value ="/discretize", method={RequestMethod.POST})
+    public void discretizeCensus() throws Exception{
+        fileFactory.saveDiscretizedArff();
+    }
 }

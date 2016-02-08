@@ -22,11 +22,13 @@ public class DecisionTreeService {
 
     private LoadData loadData;
     private FileFactory fileFactory;
+    private EvaluationService evaluationService;
 
     @Autowired
-    public DecisionTreeService(FileFactory fileFactory, LoadData loadData){
+    public DecisionTreeService(FileFactory fileFactory, LoadData loadData, EvaluationService evaluationService){
         this.fileFactory = fileFactory;
         this.loadData = loadData;
+        this.evaluationService = evaluationService;
     }
 
     public String getDecisionTreeInformation(DecisionTree decisionTree) throws Exception{
@@ -67,7 +69,13 @@ public class DecisionTreeService {
         if (decisionTree.getTestType() == DecisionTree.TestType.CrossValidation){
             evaluation.crossValidateModel(classifier, data.train, 10, new Random(1));
         } else if (decisionTree.getTestType() == DecisionTree.TestType.Train){
-            evaluation.evaluateModel(classifier, data.train);
+            FileFactory.TrainTest d;
+            if (decisionTree.getFileName() == ML.Files.Census){
+                d = fileFactory.handlePublicCensus(0, new Options(decisionTree.isFeatureSelection()));
+            } else {
+                d = fileFactory.handlePublicCar(0);
+            }
+            evaluation.evaluateModel(classifier, d.train);
         } else {
             evaluation.evaluateModel(classifier, data.test);
         }
@@ -113,7 +121,17 @@ public class DecisionTreeService {
                 data = fileFactory.handlePublicCar(num);
             }
             Classifier cls = buildJ48(decisionTree, data.train);
-            return handleSplitData(decisionTree, num==1 ? num+9 : num+10, retString + "\n \n" + evaluateData(data, cls, decisionTree));
+            Instances d;
+            if (decisionTree.getTestType() == ML.TestType.Train){
+                if (decisionTree.getFileName() == ML.Files.Car){
+                    d = fileFactory.handlePublicCar(0).train;
+                } else {
+                    d = fileFactory.handlePublicCensus(0, new Options(decisionTree.isFeatureSelection())).train;
+                }
+            } else {
+                d = data.test;
+            }
+            return handleSplitData(decisionTree, num==1 ? num+9 : num+10, retString + "\n \n" + evaluationService.evaluateData(data.train, cls, d));
         }
         return retString;
     }

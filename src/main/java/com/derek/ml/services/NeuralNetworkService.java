@@ -61,7 +61,17 @@ public class NeuralNetworkService {
                 data = fileFactory.handlePublicCar(num);
             }
             MultilayerPerceptron multilayerPerceptron = handleClassification(data.train, neuralNetworkModel);
-            return handleSplitData(neuralNetworkModel, num==1 ? num+9 : num+10, retString + "\n \n" + evaluationService.evaluateData(data.train, multilayerPerceptron, data.test));
+            Instances d;
+            if (neuralNetworkModel.getTestType() == ML.TestType.Train){
+                if (neuralNetworkModel.getFileName() == ML.Files.Car){
+                    d = fileFactory.handlePublicCar(0).train;
+                } else {
+                    d = fileFactory.handlePublicCensus(0, new Options(neuralNetworkModel.isFeatureSelection())).train;
+                }
+            } else {
+                d = data.test;
+            }
+            return handleSplitData(neuralNetworkModel, num==1 ? num+9 : num+10, retString + "\n \n" + evaluationService.evaluateData(data.train, multilayerPerceptron, d));
         }
         return retString;
     }

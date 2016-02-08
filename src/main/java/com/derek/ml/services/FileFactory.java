@@ -115,31 +115,27 @@ public class FileFactory {
     }
 
     public TrainTest handlePublicCensus(int numToRemove, Options options) throws Exception{
-        Instances temp = handleData("census");
-        Instances trainingData;
+        Instances trainingData = handleData("census");
+        Instances testData = handleData("censusTest");
+        Instances temp;
         if (numToRemove > 0){
             RemovePercentage removePercentage = new RemovePercentage();
-            removePercentage.setInputFormat(temp);
+            removePercentage.setInputFormat(trainingData);
             removePercentage.setPercentage(numToRemove);
             removePercentage.setInvertSelection(true);
-            trainingData = Filter.useFilter(temp, removePercentage);
+            temp = Filter.useFilter(trainingData, removePercentage);
         }else {
-            trainingData = temp;
+            temp = trainingData;
         }
-        Instances testData = handleData("censusTest");
-        weka.filters.supervised.attribute.Discretize discretize = new weka.filters.supervised.attribute.Discretize();
-        discretize.setInputFormat(trainingData);
-
-        Instances trainingDiscretize = Filter.useFilter(trainingData, discretize);
-        Instances testingDiscretize = Filter.useFilter(testData, discretize);
 
         //5,6,8,11,12
         if (options.isFeatureSelection()){
-            Instances trainingRemoved = removeFilter(trainingDiscretize, "1-4,7,9-10,13-14");
-            Instances testingRemoved = removeFilter(testingDiscretize, "1-4,7,9-10,13-14");
+            Instances trainingRemoved = removeFilter(temp, "1-4,7,9-10,13-14");
+            Instances testingRemoved = removeFilter(testData, "1-4,7,9-10,13-14");
             return new TrainTest(trainingRemoved, testingRemoved);
         }
-        return new TrainTest(trainingDiscretize, testingDiscretize);
+
+        return new TrainTest(temp, testData);
     }
 
     public TrainTest handlePublicCar(int num) throws Exception{
@@ -156,6 +152,17 @@ public class FileFactory {
         return new TrainTest(trainingData, data.test);
     }
 
+    public void saveDiscretizedArff() throws Exception{
+        Instances temp = handleData("census");
+        Instances testData = handleData("censusTest");
+        weka.filters.supervised.attribute.Discretize discretize = new weka.filters.supervised.attribute.Discretize();
+        discretize.setInputFormat(temp);
+
+        Instances trainingDiscretize = Filter.useFilter(temp, discretize);
+        Instances testingDiscretize = Filter.useFilter(testData, discretize);
+        loadData.saveToArff(trainingDiscretize, "census.arff");
+        loadData.saveToArff(testingDiscretize, "censusTest.arff");
+    }
 
     public class TrainTest {
         public Instances train;

@@ -92,7 +92,17 @@ public class KNNService {
                 data = fileFactory.handlePublicCar(num);
             }
             Classifier cls = handleIBK(nearestNeighbor, data.train);
-            return handleSplitData(nearestNeighbor, num==1 ? num+9 : num+10, retString + "\n \n" + evaluationService.evaluateData(data.train, cls, data.test));
+            Instances d;
+            if (nearestNeighbor.getTestType() == ML.TestType.Train){
+                if (nearestNeighbor.getFileName() == ML.Files.Car){
+                    d = fileFactory.handlePublicCar(0).train;
+                } else {
+                    d = fileFactory.handlePublicCensus(0, new Options(nearestNeighbor.isFeatureSelection())).train;
+                }
+            } else {
+                d = data.test;
+            }
+            return handleSplitData(nearestNeighbor, num==1 ? num+9 : num+10, retString + "\n \n" + evaluationService.evaluateData(data.train, cls, d));
         }
         return retString;
     }

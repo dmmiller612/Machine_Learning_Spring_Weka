@@ -52,7 +52,17 @@ public class SVMService {
             }
 
             LibSVM cls = svmClassifier(svmModel, data.train);
-            return handleSplitData(svmModel, num==1 ? num+9 : num+10, retString + "\n \n" + evaluationService.evaluateData(data.train, cls, data.test));
+            Instances d;
+            if (svmModel.getTestType() == ML.TestType.Train){
+                if (svmModel.getFileName() == ML.Files.Car){
+                    d = fileFactory.handlePublicCar(0).train;
+                } else {
+                    d = fileFactory.handlePublicCensus(0, new Options(svmModel.isFeatureSelection())).train;
+                }
+            } else {
+                d = data.test;
+            }
+            return handleSplitData(svmModel, num==1 ? num+9 : num+10, retString + "\n \n" + evaluationService.evaluateData(data.train, cls, d));
         }
         return retString;
     }
