@@ -7,14 +7,16 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import weka.classifiers.Classifier;
 import weka.classifiers.Evaluation;
+import weka.classifiers.bayes.net.search.local.SimulatedAnnealing;
 import weka.classifiers.evaluation.NominalPrediction;
 import weka.classifiers.meta.AdaBoostM1;
 import weka.classifiers.trees.DecisionStump;
-import weka.classifiers.trees.Id3;
 import weka.classifiers.trees.J48;
+import weka.classifiers.trees.REPTree;
 import weka.core.FastVector;
 import weka.core.Instances;
 
+import java.util.HashMap;
 import java.util.Random;
 
 @Service
@@ -32,9 +34,7 @@ public class DecisionTreeService {
     }
 
     public String getDecisionTreeInformation(DecisionTree decisionTree) throws Exception{
-        if (decisionTree.getTreeType() == DecisionTree.TreeType.ID3){
-            return handleId3(decisionTree);
-        } else if (decisionTree.getTreeType() == DecisionTree.TreeType.J48) {
+        if (decisionTree.getTreeType() == DecisionTree.TreeType.J48) {
             return handleJ48(decisionTree);
         }
         return null;
@@ -82,7 +82,7 @@ public class DecisionTreeService {
         String retString = "";
         retString += evaluation.toSummaryString() + " \n";
         retString += evaluation.toClassDetailsString() + " \n";
-        retString += evaluation.toMatrixString() + " \n";
+        //retString += evaluation.toMatrixString() + " \n";
         return retString;
     }
 
@@ -136,17 +136,16 @@ public class DecisionTreeService {
         return retString;
     }
 
-    private String handleId3(DecisionTree decisionTree) throws Exception{
-        FileFactory.TrainTest data = fileFactory.getInstancesFromFile(decisionTree.getFileName(), new Options(decisionTree.isFeatureSelection()));
-        Id3 id3 = buildId3(data.train);
-        return evaluateData(data, id3, decisionTree);
+    public String handleRegressionTree(DecisionTree decisionTree) throws Exception{
+        REPTree repTree = new REPTree();
+        FileFactory.TrainTest trainTest = fileFactory.getInstancesFromFile(ML.Files.Boston, new Options());
+        repTree.buildClassifier(trainTest.train);
+
+        Evaluation evaluation = new Evaluation(trainTest.train);
+        evaluation.crossValidateModel(repTree, trainTest.train, 10, new Random(1));
+        return repTree.toString();
     }
 
-    private Id3 buildId3(Instances data) throws Exception{
-        Id3 id3 = new Id3();
-        id3.buildClassifier(data);
-        return id3;
-    }
 
     private String handleJ48(DecisionTree decisionTree) throws Exception{
         FileFactory.TrainTest data = fileFactory.getInstancesFromFile(decisionTree.getFileName(), new Options(decisionTree.isFeatureSelection()));

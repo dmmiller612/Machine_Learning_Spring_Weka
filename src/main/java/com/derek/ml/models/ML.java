@@ -3,8 +3,8 @@ package com.derek.ml.models;
 
 public class ML {
 
-    private ML.Files fileName = Files.Car;
-    private ML.TestType testType = ML.TestType.CrossValidation;
+    protected ML.Files fileName = Files.Car;
+    protected ML.TestType testType = ML.TestType.CrossValidation;
 
     public Files getFileName() {
         return fileName;
@@ -23,7 +23,7 @@ public class ML {
     }
 
     public static enum Files {
-        Census, Car;
+        Boston, Census, Car, CarBin, CensusBin, CensusKm, CensusEm;
     }
 
     public static enum TestType {

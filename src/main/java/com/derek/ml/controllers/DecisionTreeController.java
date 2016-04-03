@@ -33,6 +33,12 @@ public class DecisionTreeController {
     }
 
     @ResponseBody
+    @RequestMapping(value = "/regressiontree", method = {RequestMethod.GET})
+    public String getRegressionTree(DecisionTree decisionTree) throws Exception {
+        return decisionTreeService.handleRegressionTree(decisionTree);
+    }
+
+    @ResponseBody
     @RequestMapping(value="/decisiontree/test", method={RequestMethod.GET})
     public String testingError(DecisionTree decisionTree) throws Exception{
         return decisionTreeService.handleSplitData(decisionTree, 1, "");
@@ -56,7 +62,6 @@ public class DecisionTreeController {
         Instances instances = loadData.getDataFromCsvFile(fileName.getFileName() + ".csv");
         loadData.saveToArff(instances, fileName.getFileName() + ".arff");
     }
-
 
     @ResponseBody
     @RequestMapping(value ="/discretize", method={RequestMethod.POST})

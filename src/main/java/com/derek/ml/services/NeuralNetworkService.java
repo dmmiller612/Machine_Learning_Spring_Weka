@@ -1,7 +1,6 @@
 package com.derek.ml.services;
 
 import com.derek.ml.models.ML;
-import com.derek.ml.models.NearestNeighbor;
 import com.derek.ml.models.NeuralNetworkModel;
 import com.derek.ml.models.Options;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -9,10 +8,6 @@ import org.springframework.stereotype.Service;
 import weka.classifiers.Classifier;
 import weka.classifiers.functions.MultilayerPerceptron;
 import weka.core.Instances;
-import weka.core.pmml.jaxbbindings.NearestNeighborModel;
-
-import java.util.HashMap;
-
 
 @Service
 public class NeuralNetworkService {
@@ -22,6 +17,9 @@ public class NeuralNetworkService {
 
     @Autowired
     private EvaluationService evaluationService;
+
+    @Autowired
+    private FeatureReductionService featureReductionService;
 
     @Autowired
     LoadData loadData;
@@ -87,6 +85,26 @@ public class NeuralNetworkService {
         Classifier cls = loadData.getModel(getString(nn));
         nn.setTestType(ML.TestType.TestData);
         return handleEvaluation((MultilayerPerceptron) cls, nn, data);
+    }
+
+    public String neuralNetworkWithReduction() throws Exception{
+        FileFactory.TrainTest censusTrainTest = fileFactory.getInstancesFromFile(ML.Files.CensusBin, new Options());
+        Instances pcaCensus = featureReductionService.applyPCAFilter(censusTrainTest.test, 30);
+        Instances icaCensus = featureReductionService.applyICA(censusTrainTest.test, 30);
+        Instances rpCensus = featureReductionService.applyRP(censusTrainTest.test, 30);
+
+        NeuralNetworkModel neuralNetworkModel = new NeuralNetworkModel();
+        neuralNetworkModel.setEpochRate(500);
+        neuralNetworkModel.setHiddenLayers(4);
+
+        censusTrainTest.train = pcaCensus;
+        String one = handleEvaluation(handleClassification(pcaCensus, neuralNetworkModel), neuralNetworkModel, censusTrainTest);
+        censusTrainTest.train = icaCensus;
+        String two = handleEvaluation(handleClassification(icaCensus, neuralNetworkModel), neuralNetworkModel, censusTrainTest);
+        censusTrainTest.train = rpCensus;
+        String three = handleEvaluation(handleClassification(rpCensus, neuralNetworkModel), neuralNetworkModel, censusTrainTest);
+
+        return "PCA \n \n " + one + " \n \n \n ICA \n \n" + two + " \n \n \n RP \n \n" + three;
     }
 
     private String getString(NeuralNetworkModel nn){

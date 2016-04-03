@@ -40,4 +40,9 @@ public class NeuralNetworkController {
         return neuralNetworkService.getModel(nn);
     }
 
+    @ResponseBody
+    @RequestMapping(value="/neuralnetwork/reduction", method={RequestMethod.GET})
+    public String reduction() throws Exception{
+        return neuralNetworkService.neuralNetworkWithReduction();
+    }
 }

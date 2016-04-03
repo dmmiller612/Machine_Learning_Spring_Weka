@@ -20,7 +20,7 @@ public class Server extends WebMvcAutoConfiguration {
     public static void main (String[] args) throws Exception {
         ApplicationContext ctx = new SpringApplication(Server.class).run(args);
         System.out.println("MACHINE LEARNING ASSIGNMENT 1 IS RUNNING");
-
+/*
         DecisionTreeService decisionTreeService = ctx.getBean(DecisionTreeService.class);
         KNNService knnService = ctx.getBean(KNNService.class);
         SVMService svmService = ctx.getBean(SVMService.class);
@@ -28,7 +28,7 @@ public class Server extends WebMvcAutoConfiguration {
 
         /**
          * Car Evaluation Dataset
-         */
+
         System.out.println("\n\n ============================ \n Car Evaluation Dataset \n ========================");
 
         //car evaluation decision tree
@@ -70,7 +70,7 @@ public class Server extends WebMvcAutoConfiguration {
 
         /**
          * CENSUS DATASET
-         */
+
         System.out.println("\n\n =================================================================== \n");
         System.out.println("\n\n====================== \n Census Dataset \n ========================");
         System.out.println("\n =================================================================== \n\n");
@@ -143,7 +143,7 @@ public class Server extends WebMvcAutoConfiguration {
         System.out.println(knnService.getModel(new NearestNeighbor(3, ML.Files.Census, true)));
 
         System.out.println("\n \n ================================ \n FINISHED! \n ==============================");
-
+*/
     }
 }
 

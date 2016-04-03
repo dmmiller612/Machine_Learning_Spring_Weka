@@ -5,17 +5,13 @@ import com.derek.ml.models.Options;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import weka.attributeSelection.*;
-import weka.classifiers.trees.J48;
-import weka.core.Attribute;
+
 import weka.core.Instance;
 import weka.core.Instances;
 import weka.filters.Filter;
-import weka.filters.supervised.attribute.*;
 import weka.filters.unsupervised.attribute.*;
 import weka.filters.unsupervised.attribute.Discretize;
 import weka.filters.unsupervised.instance.RemovePercentage;
-
-import java.util.Map;
 
 @Service
 public class FileFactory {
@@ -29,8 +25,25 @@ public class FileFactory {
                 return handlePublicCensus(options);
             case Car:
                 return new TrainTest(handleData("car_train"), handleData("car_test"));
+            case Boston:
+                return new TrainTest(handleData("boston"), handleData("boston"));
+            case CarBin:
+                return new TrainTest(handleData("car_bin", true), handleData("car_bin"));
+            case CensusBin:
+                return new TrainTest(handleData("census_bin", true), handleData("census_bin"));
+            case CensusEm:
+                return new TrainTest(handleData("census_em"), handleData("census_em"));
+            case CensusKm:
+                return new TrainTest(handleData("census_km"), handleData("census_km"));
         }
         return null;
+    }
+
+    private Instances filterClass(Instances data) throws Exception{
+        Remove filter = new Remove();
+        filter.setAttributeIndices("" + (data.classIndex() + 1));
+        filter.setInputFormat(data);
+        return Filter.useFilter(data, filter);
     }
 
     public void splitCarDataToTest(int amount) throws Exception{
@@ -46,6 +59,14 @@ public class FileFactory {
     private Instances handleData(String fileName) throws Exception{
         try {
             return loadData.getDataFromArff(fileName + ".arff");
+        } catch (Exception e){
+            return loadData.getDataFromCsvFile(fileName + ".csv");
+        }
+    }
+
+    private Instances handleData(String fileName, boolean noClass) throws Exception{
+        try {
+            return loadData.getDataFromArff(fileName + ".arff", noClass);
         } catch (Exception e){
             return loadData.getDataFromCsvFile(fileName + ".csv");
         }
@@ -93,21 +114,10 @@ public class FileFactory {
                     } catch (Exception e){
                         //
                     }
-
                 }
-
             }
         }
         return data;
-    }
-
-    public int[] getFeatureInfo() throws Exception{
-        Instances data = handleData("census");
-        CfsSubsetEval cfsSubsetEval = new CfsSubsetEval();
-        cfsSubsetEval.buildEvaluator(data);
-
-        ExhaustiveSearch exhaustiveSearch = new ExhaustiveSearch();
-        return exhaustiveSearch.search(cfsSubsetEval, data);
     }
 
     public TrainTest handlePublicCensus(Options options) throws Exception{
@@ -115,8 +125,14 @@ public class FileFactory {
     }
 
     public TrainTest handlePublicCensus(int numToRemove, Options options) throws Exception{
-        Instances trainingData = handleData("census");
-        Instances testData = handleData("censusTest");
+        Instances trainingData = handleData("census", options.isNoClass());
+        Instances testData;
+        if (options.isNoClass()){
+            testData = handleData("census", false);
+        } else {
+            testData = handleData("censusTest", false);
+        }
+
         Instances temp;
         if (numToRemove > 0){
             RemovePercentage removePercentage = new RemovePercentage();

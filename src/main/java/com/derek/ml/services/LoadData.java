@@ -39,6 +39,20 @@ public class LoadData {
         return data;
     }
 
+    public Instances getDataFromArff(String fileName, boolean noClass) throws IOException {
+        BufferedReader reader = new BufferedReader(new FileReader("src/main/resources/arffs/" + fileName));
+        ArffLoader.ArffReader arff = new ArffLoader.ArffReader(reader, 100000);
+        Instances data = arff.getStructure();
+        if (!noClass){
+            data.setClassIndex(data.numAttributes() - 1);
+        }
+        Instance inst;
+        while ((inst = arff.readInstance(data)) != null){
+            data.add(inst);
+        }
+        return data;
+    }
+
     public void saveModel(Classifier cls, String name) throws Exception{
         ObjectOutputStream objectOutputStream = new ObjectOutputStream(new FileOutputStream("src/main/resources/models/" + name));
         objectOutputStream.writeObject(cls);

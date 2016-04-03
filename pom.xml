@@ -32,13 +32,23 @@
         </dependency>
         <dependency>
             <groupId>nz.ac.waikato.cms.weka</groupId>
-            <artifactId>weka-stable</artifactId>
-            <version>3.6.6</version>
+            <artifactId>weka-dev</artifactId>
+            <version>3.7.5</version>
         </dependency>
         <dependency>
             <groupId>nz.ac.waikato.cms.weka</groupId>
             <artifactId>LibSVM</artifactId>
             <version>1.0.4</version>
+        </dependency>
+        <dependency>
+            <groupId>filters</groupId>
+            <artifactId>filters</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>com.googlecode.efficient-java-matrix-library</groupId>
+            <artifactId>ejml</artifactId>
+            <version>0.25</version>
         </dependency>
     </dependencies>
 
@@ -70,6 +80,11 @@
             <id>org.jboss.repository.releases</id>
             <name>JBoss Maven Release Repository</name>
             <url>https://repository.jboss.org/nexus/content/repositories/releases</url>
+        </repository>
+        <repository>
+            <id>project.local</id>
+            <name>project</name>
+            <url>file:${project.basedir}/students-filters-master</url>
         </repository>
     </repositories>
 
