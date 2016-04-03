@@ -4,7 +4,7 @@ Georgia Tech Machine Learning assignment 1
 
 Code url: https://github.com/dmmiller612/MachineLearningAssignment1
 
-# Instructions for assignment 1
+# Instructions for ml assignment 1 AND 3
 
 If wanting to run the server locally, instead of just using the Weka models located in /src/main/resources/models, there are a couple of dependencies needed: Maven and Java.
 
@@ -12,15 +12,17 @@ If wanting to run the server locally, instead of just using the Weka models loca
 
 2. This uses Maven 3.x . To Install maven 3, use `sudo apt-get install maven`.
 
-3. Go to the root of the assignment code repository and type: `mvn clean package` into the command line. Then type `java -jar target/derek-assignment-1-0.1.0.jar`. Once running the jar, all of optimal models will start to run against the test datasets of both the Car Evaluation and Census dataset. This is here just to make it easier to visualize, so that you do not have to use the rest api. If you want to use the rest api, see documentation below. 
+3. Go to the root of the assignment code repository and type: `mvn clean package` into the command line. Then type `java -jar target/derek-assignment-1-0.1.0.jar`. Once running the jar, all of optimal models will start to run against the test datasets of both the Car Evaluation and Census dataset. This is here just to make it easier to visualize, so that you do not have to use the rest api. If you want to use the rest api, see documentation below.
 
+4. IF three does not work, it is because the plugin did not properly install. Running this command should do the trick inside of the students-filters-master
+"mvn install:install-file -Dfile=filters-0.0.1-SNAPSHOT.jar -DgroupId=filters -DartifactId=filters -Dversion=0.0.1-SNAPSHOT -Dpackaging=jar"
 
 
 # Navigating the Source Code 
 
 src/main/java/com/derek/ml/controllers => contains the rest endpoints.
 
-src/main/java/com/derek/ml/services => contains all of the logic and configuration of weka models. KNNService -> KNN, NeuralNetworkService -> Neural Network, DecisionTreeService->Decision Trees (boosted an unboosted), SVMService->SVM
+src/main/java/com/derek/ml/services => contains all of the logic and configuration of weka models. ClusterService -> k-means and EM, FeatureReductionService -> ICA, PCA, RP, CFS, KNNService -> KNN, NeuralNetworkService -> Neural Network, DecisionTreeService->Decision Trees (boosted an unboosted), SVMService->SVM
 
 src/main/java/com/derek/ml/models => DTO passing layers
 
@@ -33,7 +35,7 @@ src/main/resources/csv => Contains all of the initial csv files used (Arffs are 
 
 src/main/resources/arffs => Contains all of the arffs used. car_train.arff and car_test.arff are the training and testing instances for the car evaluation dataset. census.arff and censusTest.arff are the training and testing instances for the Census dataset. 
 
-src/main/resources/models => Contains several models used for the analysis. If you don’t want to run the code locally, you can just use these models against the training and test arffs listed above.
+src/main/resources/models => Contains several models used for the supervised learning analysis. If you don’t want to run the code locally, you can just use these models against the training and test arffs listed above.
 
 
 
@@ -41,10 +43,22 @@ src/main/resources/models => Contains several models used for the analysis. If y
 
 # Using the Rest API (Optional)
 
-I thought I would just add this to show the code I used for experimentation with Weka. I used the api, so that I could do multiple concurrent requests. As stated previously, you can just use the Weka models in src/main/resources/models . 
+I thought I would just add this to show the code I used for experimentation with Weka. I used the api, so that I could do multiple concurrent requests.
 
-Universal Query parameters: fileName : {Car, Census}, testType : {CrossValidation, TestData, Train}
+Universal Query parameters: fileName : {Car, Census, CarBin, CensusBin}, testType : {CrossValidation, TestData, Train}
 
+__________________
+| Cluster        |
+-------------------
+
+Endpoints: /kMeans and /em
+Query Params => clusters : int, distances : {Euclidean, Manhatten}, iterations: int, featureSelection: {ICA, PCA, RP, CFS};
+
+----------------------
+| Feature Reduction |
+----------------------
+
+Endpoints: /featureReduction/pca /featureReduction/ica /featureReduction/rp /featureReduction/cfs
 _________________
 |Decision Trees: |
 —————————————————
