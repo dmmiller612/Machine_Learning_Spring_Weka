@@ -47,21 +47,17 @@ I thought I would just add this to show the code I used for experimentation with
 
 Universal Query parameters: fileName : {Car, Census, CarBin, CensusBin}, testType : {CrossValidation, TestData, Train}
 
-__________________
-| Cluster        |
--------------------
+#Cluster
+
 
 Endpoints: /kMeans and /em
 Query Params => clusters : int, distances : {Euclidean, Manhatten}, iterations: int, featureSelection: {ICA, PCA, RP, CFS};
 
-----------------------
-| Feature Reduction |
-----------------------
+#Feature Reduction
 
 Endpoints: /featureReduction/pca /featureReduction/ica /featureReduction/rp /featureReduction/cfs
-_________________
-|Decision Trees: |
-—————————————————
+
+#Decision Trees
 
 Endpoint: /decisiontree
 
@@ -75,9 +71,7 @@ http://localhost:8080/decisiontree?fileName=Car&testType=CrossValidation&minNumO
 Using incremental testing example:
 http://localhost:8080/decisiontree/test?fileName=Car&testType=TestData&minNumObj=2&confidence=.25&boost=true
 
-________________
-| KNN           |
-————————————————
+#KNN
 
 Endpoint: /knn
 
@@ -91,9 +85,7 @@ http://localhost:8080/knn?fileName=Census&testType=TestData&k=5&boost=true
 Using incremental testing example:
 http://localhost:8080/knn/test?fileName=Census&testType=TestData&k=5
 
-__________________
-| ANN             |
-——————————————————
+#ANN
 
 Endpoint: /neuralnetwork
 
@@ -106,10 +98,7 @@ http://localhost:8080/neuralnetwork?fileName=Census&testType=TestData&hiddenLaye
 Using incremental testing example:
 http://localhost:8080/neuralnetwork/test?fileName=Car&testType=TestData&hiddenLayers=10&epochRate=500
 
-
-______________
-|SVM          |
-——————————————
+#SVM
 
 Endpoint: /svm
 
