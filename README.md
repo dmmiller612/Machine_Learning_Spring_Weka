@@ -18,26 +18,31 @@ If wanting to run the server locally, instead of just using the Weka models loca
 
 # Navigating the Source Code 
 
-###src/main/java/com/derek/ml/controllers 
+### src/main/java/com/derek/ml/controllers 
 
 contains the rest endpoints.
 
-###src/main/java/com/derek/ml/services 
+### src/main/java/com/derek/ml/services 
+
 contains all of the logic and configuration of weka models. ClusterService -> k-means and EM, FeatureReductionService -> ICA, PCA, RP, CFS, KNNService -> KNN, NeuralNetworkService -> Neural Network, DecisionTreeService->Decision Trees (boosted an unboosted), SVMService->SVM
 
-###src/main/java/com/derek/ml/models 
+### src/main/java/com/derek/ml/models 
+
 DTO passing layers
 
 
 # Navigating the Resources 
 
-###src/main/resources/csv 
+### src/main/resources/csv 
+
 Contains all of the initial csv files used (Arffs are only used for the models, however)
 
-###src/main/resources/arffs 
+### src/main/resources/arffs 
+
 Contains all of the arffs used. car_train.arff and car_test.arff are the training and testing instances for the car evaluation dataset. census.arff and censusTest.arff are the training and testing instances for the Census dataset. 
 
-###src/main/resources/models 
+### src/main/resources/models 
+
 Contains several models used for the supervised learning analysis. If you don’t want to run the code locally, you can just use these models against the training and test arffs listed above.
 
 
