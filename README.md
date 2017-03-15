@@ -1,10 +1,8 @@
-# MachineLearningAssignment1
-Georgia Tech Machine Learning assignment 1
+# Machine Learning with Weka and Spring examples
 
+Code url: https://github.com/dmmiller612/Machine_Learning_Spring_Weka
 
-Code url: https://github.com/dmmiller612/MachineLearningAssignment1
-
-# Instructions for ml assignment 1 AND 3
+# Instructions
 
 If wanting to run the server locally, instead of just using the Weka models located in /src/main/resources/models, there are a couple of dependencies needed: Maven and Java.
 
@@ -20,25 +18,27 @@ If wanting to run the server locally, instead of just using the Weka models loca
 
 # Navigating the Source Code 
 
-src/main/java/com/derek/ml/controllers => contains the rest endpoints.
+###src/main/java/com/derek/ml/controllers 
 
-src/main/java/com/derek/ml/services => contains all of the logic and configuration of weka models. ClusterService -> k-means and EM, FeatureReductionService -> ICA, PCA, RP, CFS, KNNService -> KNN, NeuralNetworkService -> Neural Network, DecisionTreeService->Decision Trees (boosted an unboosted), SVMService->SVM
+contains the rest endpoints.
 
-src/main/java/com/derek/ml/models => DTO passing layers
+###src/main/java/com/derek/ml/services 
+contains all of the logic and configuration of weka models. ClusterService -> k-means and EM, FeatureReductionService -> ICA, PCA, RP, CFS, KNNService -> KNN, NeuralNetworkService -> Neural Network, DecisionTreeService->Decision Trees (boosted an unboosted), SVMService->SVM
 
-
+###src/main/java/com/derek/ml/models 
+DTO passing layers
 
 
 # Navigating the Resources 
 
-src/main/resources/csv => Contains all of the initial csv files used (Arffs are only used for the models, however)
+###src/main/resources/csv 
+Contains all of the initial csv files used (Arffs are only used for the models, however)
 
-src/main/resources/arffs => Contains all of the arffs used. car_train.arff and car_test.arff are the training and testing instances for the car evaluation dataset. census.arff and censusTest.arff are the training and testing instances for the Census dataset. 
+###src/main/resources/arffs 
+Contains all of the arffs used. car_train.arff and car_test.arff are the training and testing instances for the car evaluation dataset. census.arff and censusTest.arff are the training and testing instances for the Census dataset. 
 
-src/main/resources/models => Contains several models used for the supervised learning analysis. If you don’t want to run the code locally, you can just use these models against the training and test arffs listed above.
-
-
-
+###src/main/resources/models 
+Contains several models used for the supervised learning analysis. If you don’t want to run the code locally, you can just use these models against the training and test arffs listed above.
 
 
 # Using the Rest API (Optional)
@@ -103,7 +103,6 @@ http://localhost:8080/neuralnetwork/test?fileName=Car&testType=TestData&hiddenLa
 Endpoint: /svm
 
 Query Params => kernelType : {Polynomial, RBF, Sigmoid, Linear}
-
 
 Examples:
 http://localhost:8080/svm?fileName=Car&testType=TestData&kernelType=Polynomial
